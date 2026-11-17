@@ -1,6 +1,6 @@
 # Focus experience
 
-Draft for [#9](https://github.com/Aman-zishan/panda/issues/9). Included in Basic and
+Approved 2026-11-17 · [#9](https://github.com/Aman-zishan/panda/issues/9). Included in Basic and
 Connect. A full session works on PANDA alone, without internet or the companion app.
 
 Following the [product philosophy](product-philosophy.md), the benefit is a physical

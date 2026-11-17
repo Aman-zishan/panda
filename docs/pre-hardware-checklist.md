@@ -36,7 +36,7 @@ when scope changes; keep the original concept PDF as a historical reference.
 - [ ] Write example spoken commands for a reminder, note, to-do, focus timer,
       snooze and acknowledgement.
 - [ ] Define how the system turns a transcript into a reminder, note or to-do.
-- [ ] Review the [focus experience](focus-experience.md): default length, pause/resume,
+- [x] Review the [focus experience](focus-experience.md): default length, pause/resume,
       completion and what happens when a session is interrupted.
 - [x] Review the [tiny-world rules](tiny-world.md): focus, rest, growth and recovery.
       It must never punish and must recover within one day.

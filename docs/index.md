@@ -4,13 +4,26 @@ PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion for fo
 quick thoughts and gentle nudges. These pages describe the product requirements and
 build plans. Hardware validation is still pending.
 
-- [Product philosophy](product-philosophy.md) — what belongs on PANDA.
-- [Feature comparison](feature-matrix.md) — Basic and Connect.
-- [Basic release](basic-release.md) and [Connect release](connect-release.md) — proposed release scope.
-- [Knob interactions](knob-interactions.md), [focus](focus-experience.md) and
-  [tiny world](tiny-world.md) — approved device behaviour.
-- [Build preparation](pre-hardware-checklist.md) — work before the hardware arrives.
-- [Decisions](decisions.md) — confirmed choices and open questions.
+## Start here
+
+Read the [product philosophy](product-philosophy.md), then compare
+[Basic and Connect](feature-matrix.md).
+
+## Using PANDA
+
+The approved behaviour covers [knob controls](knob-interactions.md),
+[focus sessions](focus-experience.md) and the [tiny world](tiny-world.md).
+
+## Releases
+
+See the proposed [Basic](basic-release.md) and [Connect](connect-release.md) release
+scopes for what is included and what comes later.
+
+## Build preparation
+
+Start with the [pre-hardware checklist](pre-hardware-checklist.md).
+The [project guide](repository-structure.md) explains where files live, and the
+[decision log](decisions.md) records confirmed choices and open questions.
 
 Use the sidebar or search to find any document. The
 [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) track the work.

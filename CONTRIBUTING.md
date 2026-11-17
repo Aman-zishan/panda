@@ -4,7 +4,8 @@ Edit or add Markdown files under `docs/`. Pages, sidebar navigation, search and
 links between documents are generated automatically with Material for MkDocs.
 Use relative Markdown links such as `[Focus](focus-experience.md)` so they work
 both in GitHub and on the website. No HTML wrapper or navigation entry is needed
-for a new page. Add a descriptive first heading to name it.
+for a new page. Add a descriptive first heading to name it. New pages appear under
+“More docs” until placed in one of the ordered sections in `mkdocs.yml`.
 
 The product homepage lives in `site/`. Documentation is published at `/panda/docs/`;
 the old `docs.html` address redirects there. Keep drafts labelled as drafts.
@@ -32,6 +33,6 @@ documentation together and deploys them to GitHub Pages. Pull requests run the s
 build as a check without deploying. Review a successful workflow run before calling
 a change live.
 
-Use `mkdocs.yml` for theme settings. Navigation automatically includes every Markdown
-page under `docs/`; subdirectories create groups. Keep assets there only if they are
-intended for public distribution.
+Use `mkdocs.yml` for theme settings and the sidebar's section order. The navigation
+hook automatically includes Markdown pages not yet assigned to a section. Keep
+assets under `docs/` only if they are intended for public distribution.

@@ -23,7 +23,25 @@ theme:
     - search.highlight
     - content.action.edit
 
-# Omit nav: MkDocs discovers every Markdown page automatically.
+nav:
+  - Start here:
+      - Overview: index.md
+      - Product philosophy: product-philosophy.md
+      - Basic vs Connect: feature-matrix.md
+  - Using PANDA:
+      - Knob controls: knob-interactions.md
+      - Focus sessions: focus-experience.md
+      - Tiny world: tiny-world.md
+  - Releases:
+      - Basic: basic-release.md
+      - Connect: connect-release.md
+  - Build preparation:
+      - Before hardware arrives: pre-hardware-checklist.md
+      - Project guide: repository-structure.md
+  - Project:
+      - Decisions: decisions.md
+      - Roadmap: https://github.com/Aman-zishan/panda/milestones
+# The docs hook adds uncategorized new Markdown pages under More docs.
 plugins:
   - search
 markdown_extensions:

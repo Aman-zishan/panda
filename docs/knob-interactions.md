@@ -3,7 +3,7 @@
 Draft for [#6](https://github.com/Aman-zishan/panda/issues/6). Same controls in Basic
 and Connect; connected reminders require Connect or a community integration.
 
-**Turn to adjust. Press to act. Hold to speak.** No menus or double-clicks.
+**Turn to adjust. Press to act. Long press to start listening.** No menus or double-clicks.
 
 ## Controls
 
@@ -29,8 +29,10 @@ prompts become silent rather than repeatedly sounding. Never cycle through a lis
   Zero shows “End focus?”; only a short press ends it. Turning up keeps the session.
 - Snooze is five minutes initially. One turn in either direction snoozes once;
   further turns in the same gesture must not change the underlying timer or volume.
-- Holding for about one second starts listening after the listening cue. Release
-  does not trigger a short press. Speech ends on silence, with a bounded capture time.
+- Long press for about one second, release, then speak after the listening cue.
+  There is no need to keep holding while talking. Release does not trigger a short
+  press. Speech ends on silence, with a bounded capture time. The wake word remains
+  the hands-free alternative.
 - A sleeping display wakes on the first interaction without carrying out its action.
 
 Timing and turn sensitivity need checking with the real knob. Settings such as

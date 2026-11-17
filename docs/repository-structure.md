@@ -10,6 +10,7 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Decision log](decisions.md) — recorded product and technology choices.
 - [Knob interactions](knob-interactions.md) — proposed controls, defaults and hardware checks.
 - [Tiny-world rules](tiny-world.md) — approved focus, rest, growth and recovery behaviour.
+- [Focus experience](focus-experience.md) — proposed session flow, breaks and interruptions.
 - [Licences](../LICENSE.md) — reuse terms for software, hardware, documentation and assets.
 - [Build preparation](pre-hardware-checklist.md) — requirements and preparation tasks.
 - [Milestones](https://github.com/Aman-zishan/panda/milestones) — project progress.

@@ -16,6 +16,7 @@ without pulling you away from your work.
 - [Feature matrix](docs/feature-matrix.md) — Approved Basic and Connect feature scope.
 - [Knob interactions](docs/knob-interactions.md) — Proposed physical controls.
 - [Tiny-world rules](docs/tiny-world.md) — Approved focus, rest and growth behaviour.
+- [Focus experience](docs/focus-experience.md) — Proposed session flow and interruption handling.
 - [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live
   roadmap and work tracker.
 - [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while

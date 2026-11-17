@@ -1,9 +1,11 @@
 # PANDA
 
-![PANDA concept](docs/assets/panda-concept.png)
+![PANDA desk companion](docs/assets/panda-banner.png)
 
-PANDA is a calm physical desk companion for quick voice capture, focus and gentle
-glanceable feedback.
+<img src="docs/assets/panda-concept.png" alt="PANDA logo" width="220">
+
+PANDA means **Presence-Aware Non-verbal Desk Assistant**: a calm physical desk
+companion for quick voice capture, focus and gentle glanceable feedback.
 
 It should make the next useful action easier without asking for attention, opening a
 feed or duplicating a phone.

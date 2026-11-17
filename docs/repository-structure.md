@@ -8,7 +8,7 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Documentation](https://aman-zishan.github.io/panda/docs.html) — product rules, planned experiences and build stages.
 - [Product philosophy](product-philosophy.md) — principles behind the device.
 - [Decision log](decisions.md) — recorded product and technology choices.
-- [Knob interactions](knob-interactions.md) — proposed controls, defaults and hardware checks.
+- [Knob interactions](knob-interactions.md) — approved controls, defaults and hardware checks.
 - [Tiny-world rules](tiny-world.md) — approved focus, rest, growth and recovery behaviour.
 - [Focus experience](focus-experience.md) — approved session flow, breaks and interruptions.
 - [Basic release scope](basic-release.md) — proposed contents and readiness criteria for the public build.

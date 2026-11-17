@@ -1,6 +1,6 @@
 # Knob interactions
 
-Draft for [#6](https://github.com/Aman-zishan/panda/issues/6). Same controls in Basic
+Approved 2026-11-17 · [#6](https://github.com/Aman-zishan/panda/issues/6). Same controls in Basic
 and Connect; connected reminders require Connect or a community integration.
 
 **Turn to adjust. Press to act. Long press to start listening.** No menus or double-clicks.

@@ -20,7 +20,7 @@ scores or menus on the device.
 | Clear or postpone the completion prompt | Press to acknowledge, or turn to snooze | Clear the mark, or show the prompt again after five minutes. A snooze does not extend or restart focus. |
 | Start another session | After clearing the prompt, press from idle | Start only when asked. Never automatically begin another focus session. |
 
-The proposed [knob controls](knob-interactions.md) set duration in five-minute steps
+The approved [knob controls](knob-interactions.md) set duration in five-minute steps
 from 5 to 120 minutes. Changing volume during focus does not change the timer.
 The completion mark stays understandable until acknowledged or a new session begins;
 it does not flash or repeatedly alert. Only an explicit snooze requests another cue.

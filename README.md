@@ -15,7 +15,7 @@ without pulling you away from your work.
 - [Decision log](docs/decisions.md) — Confirmed choices and open decisions.
 - [Feature matrix](docs/feature-matrix.md) — Approved Basic and Connect feature scope.
 - [Basic release scope](docs/basic-release.md) — Proposed contents of the standalone public build.
-- [Knob interactions](docs/knob-interactions.md) — Proposed physical controls.
+- [Knob interactions](docs/knob-interactions.md) — Approved physical controls.
 - [Tiny-world rules](docs/tiny-world.md) — Approved focus, rest and growth behaviour.
 - [Focus experience](docs/focus-experience.md) — Approved session flow and interruption handling.
 - [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live

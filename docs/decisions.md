@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Knob controls | [Table approved](knob-interactions.md). Turn to adjust, press to act, long press then release to start listening. No menus or double-clicks; timing needs hardware validation. |
 | 2026-11-17 | Focus experience | [Flow approved](focus-experience.md). Default 25 minutes, explicit pause/resume, one completion cue and optional rest. No automatic restart or penalties; local focus works offline. |
 | 2026-11-17 | Tiny world | [Rules approved](tiny-world.md). Focus adds growth; stopping loses nothing. No wilting in Stage 1. Later presence-based drooping is temporary and clears within a day. |
 | 2026-11-17 | Release licences | Basic software: GPL-3.0-only. Hardware designs: CERN-OHL-S-2.0. Documentation: CC-BY-SA-4.0. Connect remains proprietary; branding and asset exceptions are listed in [LICENSE.md](../LICENSE.md). |

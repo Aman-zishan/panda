@@ -25,6 +25,11 @@ feedback on the device; setup and detailed settings in the companion app.
 The microphone has a useful local role. Connecting it to an external service is an
 optional extension, not a requirement for Basic's bundled commands or controls.
 
+Audio files are supplied by each builder and are not included in the public release.
+Our prototype uses `animal-duckquack-rising.mp3` from Casper's sound-effects site;
+builders can choose their own sounds under the source's applicable terms. See
+[Casper's usage terms](https://www.casper.tw/sound-effects/license/).
+
 ## What can arrive earlier
 
 A Stage 1 breadboard preview can cover the timer, knob, display, local voice and

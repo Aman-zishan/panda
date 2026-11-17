@@ -25,8 +25,16 @@ sounds. Volume control and quiet behaviour apply to both.
 ## Asset status
 
 The character is agreed; this vocabulary and the final clips still need review.
-A prototype WAV is stored locally in ignored working notes, not distributed with the
-project. It has not been tested on PANDA's speaker or cleared for redistribution.
+`prototype.wav` was generated with ElevenLabs' free plan (confirmed 2026-11-17).
+It stays in ignored working notes and is excluded from releases. It has not been
+tested on PANDA's speaker.
+
+ElevenLabs' [free-plan terms](https://elevenlabs.io/docs/overview/administration/billing)
+limit use to non-commercial purposes with attribution. Its
+[Sound Effects terms, Exhibit 4](https://elevenlabs.io/creative-terms) also restrict
+distribution as isolated audio files. This clip is not suitable for PANDA's reusable
+public sound assets; a paid plan alone would not resolve that distribution restriction.
+Release clips need a source that permits commercial reuse and redistribution.
 
 Before release, record each clip's source and licence and check it on the actual
 speaker. AI-generated prototypes are not automatically cleared for a public release.

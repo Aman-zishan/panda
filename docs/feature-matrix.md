@@ -56,8 +56,17 @@ Basic includes setup, device controls and status. Connect includes the integrate
 | F24 | Community interfaces | 1 | Document audio, device events and commands; provide examples for third-party integrations. |
 | F19 | Connect capture transcript | 1 | Show the full transcript after each capture. |
 | F20 | Connect items, history, search and preferences | 1 | Inspect reminders, notes and to-dos; review history and configure behaviour away from the robot. |
-| F21 | Connect desktop notifications | 2 | Surface relevant device events without becoming a general notification feed. Delivery and duplication rules need definition. |
+| F21 | Connect desktop notification escalation | 2 | For user-selected event types, send one desktop notification if the device nudge remains unacknowledged after a configurable delay. Acknowledge, snooze, complete or cancel stops pending escalation. |
 | F22 | Both apps: platform scope | 1 / later | PC first. Mobile and Bluetooth-assisted setup are deferred. |
+
+### Notification escalation
+
+- Start with reminders and focus/break nudges; users choose which types may escalate.
+- Track lack of acknowledgement, not assumed lack of attention. PANDA cannot know whether a person noticed a nudge.
+- Keep the same event across the robot and app so acknowledgement in either stops further alerts.
+- Respect quiet hours and meeting quiet mode. Do not produce a backlog of duplicate alerts after reconnecting.
+- The desktop app must be running and have notification permission. Show when desktop delivery is unavailable.
+- Exact delay defaults and handling of expired events remain to be defined. No repeated escalation loop.
 
 ## Optional meeting agent — Connect
 

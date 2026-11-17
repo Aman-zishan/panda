@@ -26,6 +26,9 @@ without pulling you away from your work.
 
 ## To decide
 
+- Approve the Review rows in the [feature matrix](feature-matrix.md): Basic presence,
+  breaks, display sleep, head movement, local persistence and Connect offline fallback.
+
 - Speech-to-text and language-model providers.
 - Sound vocabulary and asset licences.
 - Device/backend message format.

@@ -13,6 +13,7 @@ without pulling you away from your work.
 - [Product philosophy](docs/product-philosophy.md) — What belongs on PANDA, what
   belongs in the companion app, and how we avoid building a tiny phone.
 - [Decision log](docs/decisions.md) — What we chose, why, and the tradeoffs.
+- [Feature matrix](docs/feature-matrix.md) — Proposed Basic and Connect feature scope.
 - [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live
   roadmap and work tracker.
 - [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while

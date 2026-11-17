@@ -16,7 +16,7 @@ The approved behaviour covers [knob controls](knob-interactions.md),
 
 ## Releases
 
-See the proposed [Basic](basic-release.md) and [Connect](connect-release.md) release
+See the approved [Basic](basic-release.md) and [Connect](connect-release.md) release
 scopes for what is included and what comes later.
 
 ## Build preparation

@@ -33,9 +33,9 @@ when scope changes; keep the original concept PDF as a historical reference.
 
 ## 2. Define the product behaviour
 
-- [ ] Write example spoken commands for a reminder, note, to-do, focus timer,
-      snooze and acknowledgement.
-- [ ] Define how the system turns a transcript into a reminder, note or to-do.
+- [ ] Review [voice capture outcomes](voice-capture.md): examples, confirmation,
+      correction and failure for notes, to-dos and reminders.
+- [ ] Define exact local voice phrases and spoken snooze/acknowledgement commands.
 - [x] Review the [focus experience](focus-experience.md): default length, pause/resume,
       completion and what happens when a session is interrupted.
 - [x] Review the [tiny-world rules](tiny-world.md): focus, rest, growth and recovery.
@@ -128,9 +128,9 @@ into `docs/`.
 
 ## Release plans
 
-- [ ] Review the [Basic release scope](basic-release.md): standalone features,
+- [x] Review the [Basic release scope](basic-release.md): standalone features,
       public build materials and release readiness.
-- [ ] Review the [Connect release scope](connect-release.md): first paid offering,
+- [x] Review the [Connect release scope](connect-release.md): first paid offering,
       later integrations and service limits.
 
 PANDA Basic includes open-source hardware files, firmware, a community setup/control

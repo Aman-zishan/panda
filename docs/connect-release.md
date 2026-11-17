@@ -1,6 +1,6 @@
 # PANDA Connect release scope
 
-Draft alongside the [Basic release scope](basic-release.md). The
+Approved 2026-11-17 alongside the [Basic release scope](basic-release.md). The
 [feature matrix](feature-matrix.md) describes the planned editions; not every Connect
 feature is part of its first release.
 
@@ -9,7 +9,7 @@ voice capture and useful follow-up to the same physical PANDA. Following the
 [product philosophy](product-philosophy.md), the device gives brief feedback and
 nudges; transcripts, lists, editing and settings stay in the app.
 
-## Proposed first release
+## First release
 
 | Included | What the person can do |
 | --- | --- |

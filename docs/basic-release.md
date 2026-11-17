@@ -1,6 +1,6 @@
 # PANDA Basic release scope
 
-Draft for [#10](https://github.com/Aman-zishan/panda/issues/10). The
+Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). The
 [feature matrix](feature-matrix.md) defines the editions; this page defines what
 someone must receive to build and use Basic without a private PANDA service.
 The [Connect release scope](connect-release.md) covers the paid app and managed services.

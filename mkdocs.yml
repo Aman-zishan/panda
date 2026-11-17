@@ -32,6 +32,7 @@ nav:
       - Knob controls: knob-interactions.md
       - Focus sessions: focus-experience.md
       - Tiny world: tiny-world.md
+      - Voice capture: voice-capture.md
   - Releases:
       - Basic: basic-release.md
       - Connect: connect-release.md

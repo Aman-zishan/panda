@@ -9,8 +9,8 @@ Sources: [concept v1, pages 3–7](PANDA_desk_companion_concept_v1.pdf),
 
 ## Editions and stages
 
-- **Basic:** a useful local desk companion without an app or cloud service.
-- **Connect:** Basic behaviour plus voice capture, stored items and calendar support.
+- **Basic:** all planned hardware features plus a self-hosted community backend and companion app, including voice capture, reminders, notes and calendar support.
+- **Connect:** the hosted, managed service for the same device capabilities, including managed speech and AI processing.
 - **Stage 1:** breadboard controls, focus, sound, display and connected voice loop.
 - **Stage 2:** presence, electrical microphone mute and calendar behaviour.
 - **Stage 3:** enclosure, visor and head movement.
@@ -23,12 +23,12 @@ respective hardware even when included in an edition.
 | ID | Feature | Basic | Connect | Stage | Required outcome |
 | --- | --- | --- | --- | --- | --- |
 | F01 | Knob controls | Yes | Yes | 1 | Turn to adjust; press to start or acknowledge. Exact gestures are defined separately. |
-| F02 | Focus sessions | Local | Local + voice start | 1 | Set and complete a session without app interaction; clearly signal its end. |
-| F03 | Sound vocabulary | Local events | Local + connected events | 1 | Short, distinct sounds with one meaning each. No spoken replies. |
-| F04 | Status light | Applicable local states | Also listening, muted and offline | 1 | Make current state clear within one second; never show listening when capture is unavailable. |
-| F05 | Tiny world | Local focus feedback | Also connected behaviour | 1 | Focus affects the world. It never dies or shames; recovery takes no more than a day. |
-| F06 | State persistence | Local | Persistent world and records | 1 | World state survives a restart. Basic must not require the backend for this. |
-| F07 | Brief display feedback | Timer and local state | Also captured item or time | 1 | Read at a glance. Full text, lists and editing belong in the app. |
+| F02 | Focus sessions | Local + voice start | Local + voice start | 1 | Set and complete a session without app interaction; clearly signal its end. |
+| F03 | Sound vocabulary | Local + connected events | Local + connected events | 1 | Short, distinct sounds with one meaning each. No spoken replies. |
+| F04 | Status light | Local, listening, muted and offline states | Same | 1 | Make current state clear within one second; never show listening when capture is unavailable. |
+| F05 | Tiny world | Local + connected behaviour | Same | 1 | Focus affects the world. It never dies or shames; recovery takes no more than a day. |
+| F06 | State persistence | Local world; self-hosted records | Local world; managed records | 1 | World state survives a restart. Basic must not require the backend for this. |
+| F07 | Brief display feedback | Timer, local state and captured item/time | Same | 1 | Read at a glance. Full text, lists and editing belong in the app. |
 | F08 | Presence | Yes | Yes | 2 | Recognize at-desk and away; use presence for breaks, world behaviour and display sleep. |
 | F09 | Break nudges | Local | Yes | 2 | Use desk presence to time a gentle nudge. Avoid repeated demands for attention. |
 | F10 | Display protection | Local presence-driven dim/sleep | Presence-driven dim/sleep | 2 | Shift pixels, dim and sleep as appropriate; Basic must work without calendar access. |
@@ -39,16 +39,16 @@ respective hardware even when included in an edition.
 
 | ID | Feature | Basic | Connect | Stage | Required outcome |
 | --- | --- | --- | --- | --- | --- |
-| F13 | Wake word and long-press capture | No AI capture | Yes | 1 | Accept a short request after a wake word or deliberate press. Begin request recording after the listening sound. |
-| F14 | Reminders, notes and to-dos | No | Yes | 1 | Save the intended text and time; give a brief confirmation. Do not signal success for an unsaved request. |
-| F15 | Scheduled reminders | Focus/break signals only | Yes | 1 | Deliver due nudges within five seconds under normal connected operation; allow acknowledgement and snooze. |
-| F16 | Microphone privacy | No audio transmission | Yes | 2 | Hardware switch disables the microphone electrically and exposes its state. Muted means no audio leaves the device. |
-| F17 | Calendar awareness | No | Yes | 2 | Warn before meetings; no sound or movement during an active meeting. |
-| F18 | Connection loss | Local operation | Local fallback | 1 | Make unavailable connected functions clear. Retain Basic functionality while disconnected, including focus, controls, world state and available presence/movement hardware. |
+| F13 | Wake word and long-press capture | Yes, self-hosted service | Yes, managed service | 1 | Accept a short request after a wake word or deliberate press. Begin request recording after the listening sound. |
+| F14 | Reminders, notes and to-dos | Self-hosted | Managed | 1 | Save the intended text and time; give a brief confirmation. Do not signal success for an unsaved request. |
+| F15 | Scheduled reminders | Self-hosted scheduler | Managed scheduler | 1 | Deliver due nudges within five seconds under normal connected operation; allow acknowledgement and snooze. |
+| F16 | Microphone privacy | Yes | Yes | 2 | Hardware switch disables the microphone electrically and exposes its state. Muted means no audio leaves the device. |
+| F17 | Calendar awareness | Self-hosted integration | Managed integration | 2 | Warn before meetings; no sound or movement during an active meeting. |
+| F18 | Connection loss | Local fallback | Local fallback | 1 | Make unavailable connected functions clear. Retain on-device focus, controls, world state and available presence/movement hardware if the backend is unreachable. Voice understanding, stored-item access and calendar services require an available configured backend. |
 
 ## Companion app
 
-Connect only. The app provides detail; ordinary device interactions should not require it.
+Both editions include these capabilities. Basic uses the community app and self-hosted backend; Connect uses managed services. The app provides detail; ordinary device interactions should not require it.
 
 | ID | Feature | Stage | Required outcome |
 | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ Connect only. The app provides detail; ordinary device interactions should not r
 - Keep controls reliable, sounds volume-limited and movement gentle.
 - Keep hardware access separate from behaviour, use one pin map and log state changes.
 - Validate power, audio, wiring and physical interactions on the actual device.
-- Basic build files are intended for public release; licences remain to be selected.
+- Basic firmware, backend, community app and hardware build files are intended for public release; licences remain to be selected.
 
 These cover the PDF's HW requirements and firmware maintenance constraints. Detailed
 pin assignments, protocols and component choices belong in later implementation tasks.
@@ -75,10 +75,16 @@ No chat screen, scrolling lists, feed, camera, battery, driving, touch keyboard 
 human-language speech output. Voice capture supports quick desk tasks, not an open-ended
 chat assistant. Detailed reading and multi-step choices belong in the app.
 
+## Service requirements
+
+- Basic users run and configure their backend and speech/AI services. Provider and local-model support are still to be selected; self-hosting does not imply free AI usage or guaranteed offline speech recognition.
+- Connect supplies hosted, managed speech/AI and backend operation. Pricing, accounts and service guarantees are not defined yet.
+- Hardware capabilities are not gated by edition. Both editions follow the same product philosophy and microphone privacy rules.
+
 ## Changes from the original concept
 
-- The PDF assumes backend-owned focus and world state. A standalone Basic edition
-  requires local ownership. Local persistence and Connect fallback are included.
+- Both editions retain on-device focus and world behaviour during backend outages.
+  Basic now includes voice and the community app; the edition boundary is service ownership, not hardware access.
 - Presence and movement were not assigned to editions in the PDF. Including them
   in Basic is approved because they directly support the product philosophy.
 - The three-week usefulness test moves to the integrated prototype with presence

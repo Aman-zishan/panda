@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | 2026-11-17 | Product philosophy | Approved. Use [the philosophy](product-philosophy.md) to assess every new feature. |
 | 2026-11-17 | Product rule | Add device features only when physical interaction reduces distraction. Keep detail, history and settings in the app. |
-| 2026-11-17 | PANDA Basic | Local controls, sounds, focus timer, persistent tiny world, presence, break nudges, display sleep and head movement with the required hardware. Release build files after validation. |
-| 2026-11-17 | Feature scope | [Feature matrix](feature-matrix.md) approved. Connect retains Basic functionality when disconnected. |
-| 2026-11-17 | PANDA Connect | Voice understanding, reminders, notes, calendar integration and companion app. Keep implementation closed. |
+| 2026-11-17 | PANDA Basic | All hardware features plus voice, reminders, notes, calendar and a self-hosted community backend/app. Publish Basic software and build files after validation. |
+| 2026-11-17 | Feature scope | [Feature matrix](feature-matrix.md) approved. Both editions retain on-device functions during backend outages; service-dependent functions need an available backend. |
+| 2026-11-17 | PANDA Connect | Hosted, managed backend and speech/AI services. Hardware capabilities are also available in Basic; managed service implementation remains closed. |
 | 2026-11-17 | Project home | Public GitHub repository, GitHub Pages website, and GitHub issues and milestones. |
 | 2026-11-17 | Validation timing | Check Stage 1 reliability over a few working days. Run the three-week usefulness test once presence and head movement work together. |
 | 2026-11-17 | Validation records | Defer until hardware work begins; excluded from project-home ticket #5. |

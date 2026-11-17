@@ -127,7 +127,7 @@ into `docs/`.
 
 ## Release plans
 
-PANDA Basic is planned as a self-contained build with firmware, schematics and
-enclosure files. Releases will follow validation and include their applicable licences.
-PANDA Connect adds voice understanding and the companion app. Availability will be
+PANDA Basic includes hardware build files, firmware, a self-hosted backend and a
+community companion app with voice support. Releases will include their applicable
+licences. PANDA Connect provides hosted, managed backend and speech/AI services. Availability will be
 documented as the project progresses.

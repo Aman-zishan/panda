@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Name and logo | Accurate “Built with PANDA” and “Compatible with PANDA” descriptions are allowed. Modified products use their own branding; official status and product use of the logo require permission. See [BRAND.md](../BRAND.md). |
 | 2026-11-17 | Prototype speech | English first. Start with Deepgram Nova-3; validate accuracy and response time with real commands. |
 | 2026-11-17 | Prototype language model | Start with Groq-hosted GPT-OSS 20B for command interpretation. Validate extracted actions and schedules before relying on them. |
 | 2026-11-17 | Prototype hosting | Run FastAPI on the builder's PC. Keep speech and model providers replaceable. GCP is a candidate for hosted Connect, not a final infrastructure decision. |

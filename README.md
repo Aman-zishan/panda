@@ -24,6 +24,9 @@ without pulling you away from your work.
 
 ## Current status
 
+See the [brand policy](BRAND.md) for use of the PANDA name and logo. Release licences
+for code, hardware and assets are still being selected.
+
 Planning Stage 1 while waiting for the complete breadboard hardware delivery.
 
 This repository contains the website, product philosophy and build plans. PANDA Basic

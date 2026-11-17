@@ -4,6 +4,24 @@ This log records important product and technology choices. Each entry explains t
 reason and tradeoff. When a decision changes, add a new entry referring to the old
 one so the reasoning remains visible.
 
+## 2026-11-17 — Product promise (proposed)
+
+**Ticket:** [#1 — Write PANDA's one-sentence promise](https://github.com/Aman-zishan/panda/issues/1)
+
+**Proposed promise:** PANDA is a calm desk companion that helps you focus, capture
+thoughts and take breaks through simple physical interactions, without pulling you
+away from your work.
+
+**Reason:** Describe the benefit first, without requiring someone to understand the
+hardware or software. Focus, capture and breaks connect directly to the planned
+experience and the product philosophy.
+
+**Tradeoff:** This describes the overall product direction. Voice capture belongs
+to Connect; individual editions need their own feature descriptions. This is a
+design promise, not a claim that the hardware has already been validated.
+
+**Status:** Proposed for review. Once approved, use this sentence in the README.
+
 ## 2026-11-17 — PANDA Basic and Connect
 
 **Decision:** Plan a self-contained Basic edition with local controls, sounds, a

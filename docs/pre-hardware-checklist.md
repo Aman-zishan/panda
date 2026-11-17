@@ -20,9 +20,6 @@ Use the [feature matrix](feature-matrix.md), [decision log](decisions.md) and
     - existing ESP-SR firmware
 - [x] Choose the backend language and framework: Python with FastAPI.
 - [x] Choose the PC companion-app technology: Electron with React and TypeScript.
-- [x] Choose the sound character: soft duck-like chirps.
-- [ ] Finalize the [eight proposed sounds](sounds.md): listening, understood, try
-      again, reminder, break time, focus complete, meeting soon and error.
 
 Record confirmed choices in [decisions.md](decisions.md). Update the feature matrix
 when scope changes; keep the original concept PDF as a historical reference.

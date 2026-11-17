@@ -8,7 +8,6 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Documentation](https://aman-zishan.github.io/panda/docs.html) — product rules, planned experiences and build stages.
 - [Product philosophy](product-philosophy.md) — principles behind the device.
 - [Decision log](decisions.md) — recorded product and technology choices.
-- [Sound character](sounds.md) — agreed direction and proposed vocabulary.
 - [Knob interactions](knob-interactions.md) — proposed controls, defaults and hardware checks.
 - [Licences](../LICENSE.md) — reuse terms for software, hardware, documentation and assets.
 - [Build preparation](pre-hardware-checklist.md) — requirements and preparation tasks.

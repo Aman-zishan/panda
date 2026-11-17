@@ -7,6 +7,7 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Website](https://aman-zishan.github.io/panda/) — product introduction.
 - [Documentation](https://aman-zishan.github.io/panda/docs.html) — product rules, planned experiences and build stages.
 - [Product philosophy](product-philosophy.md) — principles behind the device.
+- [Decision log](decisions.md) — recorded product and technology choices.
 - [Build preparation](pre-hardware-checklist.md) — requirements and preparation tasks.
 - [Milestones](https://github.com/Aman-zishan/panda/milestones) — project progress.
 - [Issues](https://github.com/Aman-zishan/panda/issues) — tasks and open questions.

@@ -4,6 +4,9 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Prototype speech | English first. Start with Deepgram Nova-3; validate accuracy and response time with real commands. |
+| 2026-11-17 | Prototype language model | Start with Groq-hosted GPT-OSS 20B for command interpretation. Validate extracted actions and schedules before relying on them. |
+| 2026-11-17 | Prototype hosting | Run FastAPI on the builder's PC. Keep speech and model providers replaceable. GCP is a candidate for hosted Connect, not a final infrastructure decision. |
 | 2026-11-17 | Sound character | Soft duck-like chirps; short, gentle and non-verbal. Avoid loud honks and repeated alerts. Final clips require speaker testing and release-compatible licences. |
 | 2026-11-17 | Basic voice | Include a small set of on-device commands for focus, timer and volume. Exact phrases require hardware validation; no cloud needed. |
 | 2026-11-17 | Connect scheduling | Understand one-off, recurring and conditional reminder requests. Confirm schedules before saving; clarify missing timing or conditions. |
@@ -36,7 +39,8 @@ without pulling you away from your work.
 - Local voice command phrases and recognition targets.
 - Schedule timezone, missed-occurrence and resumption rules.
 - Connect pricing and service scope.
-- Speech-to-text and language-model providers.
+- Confirm production speech/model providers after prototype measurements.
+- Select hosted Connect infrastructure; GCP is a candidate.
 - Finalize the [proposed eight sounds](sounds.md) and asset licences.
 - Device/backend message format.
 - GPIO assignments after inspecting the hardware.

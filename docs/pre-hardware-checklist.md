@@ -13,8 +13,8 @@ Use the [feature matrix](feature-matrix.md), [decision log](decisions.md) and
 
 - [x] Choose the wake word. `Panda` is the current candidate.
     - Panda
-- [ ] Choose the speech-to-text provider.
-- [ ] Choose the language-model provider.
+- [x] Choose the prototype speech-to-text provider: Deepgram Nova-3, English.
+- [x] Choose the prototype language model: GPT-OSS 20B hosted by Groq.
 - [x] Choose whether to adapt an existing ESP32 voice-firmware project or build new
       firmware.
     - existing ESP-SR firmware

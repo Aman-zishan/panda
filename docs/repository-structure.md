@@ -18,6 +18,6 @@ This repository contains PANDA's website, product documentation and build plans.
 documents and original artwork. `.github/workflows/pages.yml` publishes the website
 with GitHub Pages.
 
-PANDA Basic firmware, backend, community app and hardware files will be documented
+PANDA Basic firmware, community app, integration examples and hardware files will be documented
 here as they are released.
 The concept PDF describes the initial proposal; later decisions may supersede it.

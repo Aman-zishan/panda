@@ -98,7 +98,8 @@ Record each decision in the concept document before changing implementation work
       no false presses during one hour idle.
 - [ ] Write the focus check: complete a 25-minute session without app interaction.
 - [ ] Prepare a daily three-week log. Each workday, use voice capture, the knob and
-      the tiny world; Stage 1 passes only if PANDA is still in use during week three.
+      the tiny world once presence and head movement are available. Stage 1 uses bench
+      checks and a few working days of reliability checks.
 
 ## When the hardware arrives
 
@@ -107,8 +108,8 @@ Record each decision in the concept document before changing implementation work
 3. Bring up one component at a time: OLED, LED, encoder, speaker/amplifier, then
    microphone and Wi-Fi.
 4. Record a bench check after each component works.
-5. Start the three-week Stage 1 daily-use test only after the complete voice loop,
-   focus timer and tiny world work together.
+5. Check Stage 1 reliability for a few working days. Defer the three-week usefulness
+   test until presence and head movement work together.
 
 ## Explicitly deferred until later stages
 
@@ -127,7 +128,7 @@ into `docs/`.
 
 ## Release plans
 
-PANDA Basic includes hardware build files, firmware, a self-hosted backend and a
-community companion app with voice support. Releases will include their applicable
-licences. PANDA Connect provides hosted, managed backend and speech/AI services. Availability will be
-documented as the project progresses.
+PANDA Basic includes open-source hardware files, firmware, a community setup/control
+app and audio/event interfaces with examples. PANDA Connect is the private, paid app
+with maintained integrations and hosted speech/AI services. Licences and availability
+will be documented with each release.

@@ -5,6 +5,8 @@
 
 Planned scope. ✓ Included · — Not bundled. Hardware-dependent features require the
 corresponding components. Local voice commands still require validation.
+Release timing is separate from edition scope: see the proposed
+[Basic](basic-release.md) and [Connect](connect-release.md) releases.
 
 | Features | Basic | Connect |
 | --- | :---: | :---: |

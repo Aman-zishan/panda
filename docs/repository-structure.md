@@ -12,6 +12,7 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Tiny-world rules](tiny-world.md) — approved focus, rest, growth and recovery behaviour.
 - [Focus experience](focus-experience.md) — approved session flow, breaks and interruptions.
 - [Basic release scope](basic-release.md) — proposed contents and readiness criteria for the public build.
+- [Connect release scope](connect-release.md) — proposed paid offering, service limits and later features.
 - [Licences](../LICENSE.md) — reuse terms for software, hardware, documentation and assets.
 - [Build preparation](pre-hardware-checklist.md) — requirements and preparation tasks.
 - [Milestones](https://github.com/Aman-zishan/panda/milestones) — project progress.

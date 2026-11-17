@@ -125,30 +125,9 @@ Milestones and active work tickets live in the
 thinking in the ignored `notes/` folder; move only settled decisions and evidence back
 into `docs/`.
 
-## Publishing and licence strategy
+## Release plans
 
-**Recommended first release policy:** keep the firmware, backend, companion app,
-PCB files and detailed manufacturing files private. This protects the parts that make
-PANDA work while its product direction and implementation are still changing.
-
-Publish only material you are comfortable with others copying:
-
-- A public project page, photographs and a high-level product description.
-- The concept document, if you want to share the idea publicly.
-- Later, a limited build guide or selected enclosure artwork if it helps build a
-community.
-
-Do not label the project or its code "open source" while commercial reuse is forbidden.
-Open-source licences must allow commercial use and redistribution. A non-commercial
-term makes the material source-available instead. The practical answer is to use a
-private repository now, publish no code, and choose a release strategy only after the
-Stage 1 validation.
-
-If you later publish non-code documents but prohibit commercial reuse, CC BY-NC-SA 4.0
-is one possible policy: it requires attribution, limits reuse to non-commercial uses,
-and requires shared adaptations to use the same terms. It does not prevent copying or
-guarantee enforcement, so do not rely on a licence as the product's only protection.
-
-Keep the PANDA name and any logo separate from the code or documentation licence. A
-clear trademark policy can stop others from presenting their copy as the official
-PANDA, even where published materials allow reuse.
+PANDA Basic is planned as a self-contained build with firmware, schematics and
+enclosure files. Releases will follow validation and include their applicable licences.
+PANDA Connect adds voice understanding and the companion app. Availability will be
+documented as the project progresses.

@@ -10,14 +10,15 @@ feed or duplicating a phone.
 
 ## Start here
 
+- [PANDA website](https://aman-zishan.github.io/panda/) — Meet the project and find its documentation.
+
 - [Product philosophy](docs/product-philosophy.md) — What belongs on PANDA, what
   belongs in the companion app, and how we avoid building a tiny phone.
 - [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live
   roadmap and work tracker.
 - [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while
   waiting for the Stage 1 delivery.
-- [Repository structure](docs/repository-structure.md) — How private product work and
-  a later public PANDA Basic release stay separate.
+- [Project guide](docs/repository-structure.md) — Where to find documentation and source files.
 - [Concept document](docs/PANDA_desk_companion_concept_v1.pdf) — The current product
   concept and staged hardware requirements.
 
@@ -25,5 +26,5 @@ feed or duplicating a phone.
 
 Planning Stage 1 while waiting for the complete breadboard hardware delivery.
 
-The connected PANDA product is private. A future public PANDA Basic release will be
-considered only after the product has been validated.
+This repository contains the website, product philosophy and build plans. PANDA Basic
+code and build files will be added as they are validated and released.

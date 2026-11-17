@@ -9,6 +9,7 @@ without pulling you away from your work.
 ## Start here
 
 - [PANDA website](https://aman-zishan.github.io/panda/) — Meet the project and find its documentation.
+- [Documentation](https://aman-zishan.github.io/panda/docs/) — Browse and search the project docs.
 
 - [Product philosophy](docs/product-philosophy.md) — What belongs on PANDA, what
   belongs in the companion app, and how we avoid building a tiny phone.
@@ -24,6 +25,7 @@ without pulling you away from your work.
 - [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while
   waiting for the Stage 1 delivery.
 - [Project guide](docs/repository-structure.md) — Where to find documentation and source files.
+- [Contributing](CONTRIBUTING.md) — Edit Markdown and build the documentation locally.
 - [Original concept](docs/PANDA_desk_companion_concept_v1.pdf) — The initial proposal;
   the feature matrix and decision log record later changes.
 

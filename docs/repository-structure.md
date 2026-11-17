@@ -5,7 +5,7 @@ This repository contains PANDA's website, product documentation and build plans.
 ## Find your way around
 
 - [Website](https://aman-zishan.github.io/panda/) — product introduction.
-- [Documentation](https://aman-zishan.github.io/panda/docs.html) — product rules, planned experiences and build stages.
+- [Documentation](https://aman-zishan.github.io/panda/docs/) — product rules, planned experiences and build stages.
 - [Product philosophy](product-philosophy.md) — principles behind the device.
 - [Decision log](decisions.md) — recorded product and technology choices.
 - [Knob interactions](knob-interactions.md) — approved controls, defaults and hardware checks.
@@ -20,9 +20,10 @@ This repository contains PANDA's website, product documentation and build plans.
 
 ## Source files
 
-`site/` contains the website and optimized images. `docs/` contains the product
-documents and original artwork. `.github/workflows/pages.yml` publishes the website
-with GitHub Pages.
+`site/` contains the product homepage and optimized images. `docs/` contains Markdown
+documentation and public assets. MkDocs generates the documentation, navigation and
+search; `.github/workflows/pages.yml` builds and publishes both parts to GitHub Pages.
+See [contributing](../CONTRIBUTING.md) for editing and local build instructions.
 
 PANDA Basic firmware, community app, integration examples and hardware files will be documented
 here as they are released.

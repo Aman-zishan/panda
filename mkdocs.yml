@@ -1,0 +1,44 @@
+site_name: PANDA Docs
+site_description: Product requirements and build documentation for PANDA.
+site_url: https://aman-zishan.github.io/panda/docs/
+repo_url: https://github.com/Aman-zishan/panda
+repo_name: PANDA on GitHub
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: build/site/docs
+strict: true
+
+theme:
+  name: material
+  logo: https://aman-zishan.github.io/panda/assets/panda-logo.webp
+  favicon: https://aman-zishan.github.io/panda/assets/panda-logo.webp
+  font: false
+  palette:
+    primary: green
+    accent: green
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+# Omit nav: MkDocs discovers every Markdown page automatically.
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra:
+  homepage: https://aman-zishan.github.io/panda/
+extra_css:
+  - stylesheets/extra.css
+hooks:
+  - scripts/docs_hooks.py
+validation:
+  links:
+    not_found: warn
+    unrecognized_links: warn

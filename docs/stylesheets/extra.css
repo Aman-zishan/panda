@@ -1,0 +1,6 @@
+:root { --md-primary-fg-color: #245a45; --md-accent-fg-color: #35795a; }
+body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.md-header__title { visibility: hidden; }
+.md-header__button.md-logo img { height: 2rem; width: 2rem; }
+.md-typeset { font-size: .8rem; line-height: 1.65; }
+.md-typeset table:not([class]) { font-size: .73rem; }

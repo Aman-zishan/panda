@@ -1,3 +1,6 @@
 # Local working notes and editor files
 notes/
 .DS_Store
+build/
+.venv-docs/
+__pycache__/

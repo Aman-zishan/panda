@@ -1,8 +1,8 @@
 # Feature matrix
 
-Draft for [#3 — Basic and Connect](https://github.com/Aman-zishan/panda/issues/3).
-Defines behaviour and edition scope, not implementation. Rows marked **Review** need
-approval before becoming development requirements. All features are planned.
+Approved 2026-11-17 · [#3 — Basic and Connect](https://github.com/Aman-zishan/panda/issues/3).
+Defines behaviour and edition scope, not implementation. Approval confirms scope;
+all features still require implementation and validation.
 
 Sources: [concept v1, pages 3–7](PANDA_desk_companion_concept_v1.pdf),
 [approved philosophy](product-philosophy.md), and [decisions](decisions.md).
@@ -27,12 +27,12 @@ respective hardware even when included in an edition.
 | F03 | Sound vocabulary | Local events | Local + connected events | 1 | Short, distinct sounds with one meaning each. No spoken replies. |
 | F04 | Status light | Applicable local states | Also listening, muted and offline | 1 | Make current state clear within one second; never show listening when capture is unavailable. |
 | F05 | Tiny world | Local focus feedback | Also connected behaviour | 1 | Focus affects the world. It never dies or shames; recovery takes no more than a day. |
-| F06 | State persistence | Local — **Review** | Persistent world and records | 1 | World state survives a restart. Basic must not require the backend for this. |
+| F06 | State persistence | Local | Persistent world and records | 1 | World state survives a restart. Basic must not require the backend for this. |
 | F07 | Brief display feedback | Timer and local state | Also captured item or time | 1 | Read at a glance. Full text, lists and editing belong in the app. |
-| F08 | Presence | **Review:** include | Yes | 2 | Recognize at-desk and away; use presence for breaks, world behaviour and display sleep. |
-| F09 | Break nudges | **Review:** include locally | Yes | 2 | Use desk presence to time a gentle nudge. Avoid repeated demands for attention. |
-| F10 | Display protection | **Review:** local sleep policy | Presence-driven dim/sleep | 2 | Shift pixels, dim and sleep as appropriate; Basic must work without calendar access. |
-| F11 | Head movement | **Review:** include | Yes | 3 | Respond to arrival, breaks or absence. Movement must not interfere with capture or sound. |
+| F08 | Presence | Yes | Yes | 2 | Recognize at-desk and away; use presence for breaks, world behaviour and display sleep. |
+| F09 | Break nudges | Local | Yes | 2 | Use desk presence to time a gentle nudge. Avoid repeated demands for attention. |
+| F10 | Display protection | Local presence-driven dim/sleep | Presence-driven dim/sleep | 2 | Shift pixels, dim and sleep as appropriate; Basic must work without calendar access. |
+| F11 | Head movement | Yes | Yes | 3 | Respond to arrival, breaks or absence. Movement must not interfere with capture or sound. |
 | F12 | Enclosure and visor | Yes | Yes | 3 | Support a compact, repairable build; a plain shell remains possible without a servo. |
 
 ## Connected behaviour
@@ -44,7 +44,7 @@ respective hardware even when included in an edition.
 | F15 | Scheduled reminders | Focus/break signals only | Yes | 1 | Deliver due nudges within five seconds under normal connected operation; allow acknowledgement and snooze. |
 | F16 | Microphone privacy | No audio transmission | Yes | 2 | Hardware switch disables the microphone electrically and exposes its state. Muted means no audio leaves the device. |
 | F17 | Calendar awareness | No | Yes | 2 | Warn before meetings; no sound or movement during an active meeting. |
-| F18 | Connection loss | Local operation | Local fallback — **Review** | 1 | Make unavailable connected functions clear. Proposed: retain Basic focus and controls while disconnected. |
+| F18 | Connection loss | Local operation | Local fallback | 1 | Make unavailable connected functions clear. Retain Basic functionality while disconnected, including focus, controls, world state and available presence/movement hardware. |
 
 ## Companion app
 
@@ -78,14 +78,14 @@ chat assistant. Detailed reading and multi-step choices belong in the app.
 ## Changes from the original concept
 
 - The PDF assumes backend-owned focus and world state. A standalone Basic edition
-  requires local ownership; persistence and Connect fallback above need approval.
+  requires local ownership. Local persistence and Connect fallback are included.
 - Presence and movement were not assigned to editions in the PDF. Including them
-  in Basic is proposed because they directly support the product philosophy.
+  in Basic is approved because they directly support the product philosophy.
 - The three-week usefulness test moves to the integrated prototype with presence
   and head movement. Stage 1 gets reliability checks and a few working days of use.
 
 ## Before development
 
-Approve the Review rows, then create feature tickets using these IDs. Each ticket
+Create feature tickets using these IDs. Each ticket
 should specify its gestures, failure behaviour and acceptance checks. Existing PDF
 bench targets remain starting points, not evidence that a feature already works.

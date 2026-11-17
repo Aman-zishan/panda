@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Sound character | Soft duck-like chirps; short, gentle and non-verbal. Avoid loud honks and repeated alerts. Final clips require speaker testing and release-compatible licences. |
 | 2026-11-17 | Basic voice | Include a small set of on-device commands for focus, timer and volume. Exact phrases require hardware validation; no cloud needed. |
 | 2026-11-17 | Connect scheduling | Understand one-off, recurring and conditional reminder requests. Confirm schedules before saving; clarify missing timing or conditions. |
 | 2026-11-17 | Notification escalation | Connect can send one desktop notification for selected nudges left unacknowledged after a configurable delay. Stop escalation on acknowledgement or snooze; respect quiet periods. |
@@ -36,7 +37,7 @@ without pulling you away from your work.
 - Schedule timezone, missed-occurrence and resumption rules.
 - Connect pricing and service scope.
 - Speech-to-text and language-model providers.
-- Sound vocabulary and asset licences.
+- Finalize the [proposed eight sounds](sounds.md) and asset licences.
 - Device/backend message format.
 - GPIO assignments after inspecting the hardware.
 - Enclosure dimensions after measuring the parts.

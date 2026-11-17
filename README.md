@@ -12,15 +12,15 @@ without pulling you away from your work.
 
 - [Product philosophy](docs/product-philosophy.md) — What belongs on PANDA, what
   belongs in the companion app, and how we avoid building a tiny phone.
-- [Decision log](docs/decisions.md) — What we chose, why, and the tradeoffs.
+- [Decision log](docs/decisions.md) — Confirmed choices and open decisions.
 - [Feature matrix](docs/feature-matrix.md) — Approved Basic and Connect feature scope.
 - [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live
   roadmap and work tracker.
 - [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while
   waiting for the Stage 1 delivery.
 - [Project guide](docs/repository-structure.md) — Where to find documentation and source files.
-- [Concept document](docs/PANDA_desk_companion_concept_v1.pdf) — The current product
-  concept and staged hardware requirements.
+- [Original concept](docs/PANDA_desk_companion_concept_v1.pdf) — The initial proposal;
+  the feature matrix and decision log record later changes.
 
 ## Current status
 

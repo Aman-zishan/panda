@@ -5,7 +5,9 @@ the ESP32-S3, breadboards, jumper wires, microphone, amplifier, speaker, OLED an
 rotary encoder are all treated as unavailable. Do not assign GPIO pins or claim that
 hardware behaviour has passed until the breadboard is assembled and tested.
 
-The source of product requirements is [PANDA desk companion concept v1](PANDA_desk_companion_concept_v1.pdf).
+Use the [feature matrix](feature-matrix.md), [decision log](decisions.md) and
+[product philosophy](product-philosophy.md) for current scope. The
+[original concept PDF](PANDA_desk_companion_concept_v1.pdf) is a historical reference.
 
 ## 1. Lock the decisions that shape the build
 
@@ -18,11 +20,12 @@ The source of product requirements is [PANDA desk companion concept v1](PANDA_de
     - existing ESP-SR firmware
 - [x] Choose the backend language and framework: Python with FastAPI.
 - [x] Choose the PC companion-app technology: Electron with React and TypeScript.
-- [ ] Define the 8–10 sound vocabulary. Give every sound one meaning: listening,
-      understood, not understood, reminder, meeting soon, focus complete, done and
-      error are the initial candidates.
+- [x] Choose the sound character: soft duck-like chirps.
+- [ ] Finalize the [eight proposed sounds](sounds.md): listening, understood, try
+      again, reminder, break time, focus complete, meeting soon and error.
 
-Record each decision in the concept document before changing implementation work.
+Record confirmed choices in [decisions.md](decisions.md). Update the feature matrix
+when scope changes; keep the original concept PDF as a historical reference.
 
 ### Recorded decisions
 
@@ -59,7 +62,8 @@ Record each decision in the concept document before changing implementation work
 
 ## 4. Prepare the repository
 
-- [ ] Add a `README` describing PANDA, the Stage 1 goal and how to run each part.
+- [x] Add a `README` describing PANDA and linking the project documents.
+- [ ] Add run instructions when implementation begins.
 - [ ] Add a `.gitignore` for local credentials, build outputs and editor files.
 - [ ] Create folders for `firmware`, `backend`, `app`, `shared` and `tests` when
       implementation begins.
@@ -67,8 +71,7 @@ Record each decision in the concept document before changing implementation work
       assignments after the breadboard is wired.
 - [ ] Keep hardware access behind a firmware abstraction layer so the non-hardware
       logic can be developed and tested separately.
-- [ ] Add a decision log for choices that change the concept, protocol, dependencies
-      or sound vocabulary.
+- [x] Add a decision log for confirmed choices and open decisions.
 
 ## 5. Prepare the physical build
 

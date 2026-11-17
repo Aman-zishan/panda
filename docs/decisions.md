@@ -7,7 +7,7 @@
 | 2026-11-17 | Basic voice | Include a small set of on-device commands for focus, timer and volume. Exact phrases require hardware validation; no cloud needed. |
 | 2026-11-17 | Connect scheduling | Understand one-off, recurring and conditional reminder requests. Confirm schedules before saving; clarify missing timing or conditions. |
 | 2026-11-17 | Notification escalation | Connect can send one desktop notification for selected nudges left unacknowledged after a configurable delay. Stop escalation on acknowledgement or snooze; respect quiet periods. |
-| 2026-11-17 | Meeting agent | Optional Connect feature: join when invited/enabled, save transcripts, propose reminders for confirmation and send approved schedules to PANDA. See F25–F28 in the feature matrix. |
+| 2026-11-17 | Meeting agent | Optional Connect feature: join when invited/enabled, save transcripts, propose reminders for confirmation and send approved schedules to PANDA. |
 | 2026-11-17 | Product philosophy | Approved. Use [the philosophy](product-philosophy.md) to assess every new feature. |
 | 2026-11-17 | Product rule | Add device features only when physical interaction reduces distraction. Keep detail, history and settings in the app. |
 | 2026-11-17 | PANDA Basic | Open-source firmware, hardware files, local focus/world, basic setup/control app and audio/event interfaces with examples. No complete Connect backend promised. |

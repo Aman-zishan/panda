@@ -1,6 +1,6 @@
 # Voice capture outcomes
 
-Draft for [#11](https://github.com/Aman-zishan/panda/issues/11). English first.
+Approved 2026-11-17 · [#11](https://github.com/Aman-zishan/panda/issues/11). English first.
 Basic handles its documented local commands; the captures below belong to Connect.
 Community integrations may provide their own alternatives.
 
@@ -54,6 +54,6 @@ The exact supported phrases still require hardware validation.
 Return to the underlying focus/world state after feedback. No repeated failure
 alerts, scrolling transcripts or notification feed on the device.
 
-Review these flows before closing the ticket. Detailed schedule rules belong to
+Recognition and feedback still require prototype validation. Detailed schedule rules belong to
 [#12](https://github.com/Aman-zishan/panda/issues/12); recording retention and privacy
 belong to [#14](https://github.com/Aman-zishan/panda/issues/14).

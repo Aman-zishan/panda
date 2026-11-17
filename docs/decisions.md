@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Connect voice capture | [Outcomes approved](voice-capture.md): notes and tasks confirm after saving; reminders require schedule confirmation. Clarify uncertainty and prevent cancelled or duplicate saves. Basic retains limited local commands. |
 | 2026-11-17 | Release scope | [Basic](basic-release.md) and [Connect](connect-release.md) scopes approved. Basic works independently; Connect starts with capture, reminders and the maintained app. Calendar and meeting-agent features come later. |
 | 2026-11-17 | Audio distribution | Builders supply their own audio. The public release includes no recordings or audio-processing tools; prototype sources are referenced in the [Basic release scope](basic-release.md). |
 | 2026-11-17 | Knob controls | [Table approved](knob-interactions.md). Turn to adjust, press to act, long press then release to start listening. No menus or double-clicks; timing needs hardware validation. |

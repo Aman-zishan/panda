@@ -33,7 +33,7 @@ when scope changes; keep the original concept PDF as a historical reference.
 
 ## 2. Define the product behaviour
 
-- [ ] Review [voice capture outcomes](voice-capture.md): examples, confirmation,
+- [x] Review [voice capture outcomes](voice-capture.md): examples, confirmation,
       correction and failure for notes, to-dos and reminders.
 - [ ] Define exact local voice phrases and spoken snooze/acknowledgement commands.
 - [x] Review the [focus experience](focus-experience.md): default length, pause/resume,

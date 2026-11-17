@@ -8,9 +8,9 @@ one so the reasoning remains visible.
 
 **Ticket:** [#1 — Write PANDA's one-sentence promise](https://github.com/Aman-zishan/panda/issues/1)
 
-**Proposed promise:** PANDA is a calm desk companion that helps you focus, capture
-thoughts and take breaks through simple physical interactions, without pulling you
-away from your work.
+**Proposed promise:** PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk
+companion that helps you focus, capture thoughts and take breaks through simple
+physical interactions, without pulling you away from your work.
 
 **Reason:** Describe the benefit first, without requiring someone to understand the
 hardware or software. Focus, capture and breaks connect directly to the planned

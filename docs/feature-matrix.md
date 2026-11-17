@@ -23,7 +23,7 @@ respective hardware even when included in an edition.
 | ID | Feature | Basic | Connect | Stage | Required outcome |
 | --- | --- | --- | --- | --- | --- |
 | F01 | Knob controls | Yes | Yes | 1 | Turn to adjust; press to start or acknowledge. Exact gestures are defined separately. |
-| F02 | Focus sessions | Local; voice via community integration | Local + integrated voice start | 1 | Set and complete a session without app interaction; clearly signal its end. |
+| F02 | Focus sessions | Knob + limited local voice commands | Local + flexible voice requests | 1 | Set and complete a session without app interaction; clearly signal its end. |
 | F03 | Sound vocabulary | Local events + integration interface | Local + integrated events | 1 | Short, distinct sounds with one meaning each. No spoken replies. |
 | F04 | Status light | Local, listening, muted and offline states | Same | 1 | Make current state clear within one second; never show listening when capture is unavailable. |
 | F05 | Tiny world | Simple local world | Local world + connected behaviours | 1 | Focus affects the world. It never dies or shames; recovery takes no more than a day. |
@@ -39,12 +39,33 @@ respective hardware even when included in an edition.
 
 | ID | Feature | Basic | Connect | Stage | Required outcome |
 | --- | --- | --- | --- | --- | --- |
-| F13 | Wake word and long-press capture | Capture and audio interface; community integration for understanding | Integrated capture and understanding | 1 | Accept a short request after a wake word or deliberate press. Begin request recording after the listening sound. |
+| F13 | Wake word and long-press capture | Limited local commands + audio integration interface | Local commands + integrated language understanding | 1 | Accept a short request after a wake word or deliberate press. Begin request recording after the listening sound. |
 | F14 | Reminders, notes and to-dos | Community extension; not bundled | Integrated | 1 | Save the intended text and time; give a brief confirmation. Do not signal success for an unsaved request. |
 | F15 | Scheduled reminders | Local focus/break signals; other schedules via extensions | Managed scheduler | 1 | Deliver due nudges within five seconds under normal connected operation; allow acknowledgement and snooze. |
 | F16 | Microphone privacy | Yes | Yes | 2 | Hardware switch disables the microphone electrically and exposes its state. Muted means no audio leaves the device. |
 | F17 | Calendar awareness | Community extension; not bundled | Integrated | 2 | Warn before meetings; no sound or movement during an active meeting. |
-| F18 | Connection loss | Local fallback | Local fallback | 1 | Make unavailable connected functions clear. Retain on-device focus, controls, world state and available presence/movement hardware if the backend is unreachable. Voice understanding, stored-item access and calendar services require an available configured backend. |
+| F18 | Connection loss | Local operation | Local fallback | 1 | Retain focus, controls, local voice commands, world state and available presence/movement hardware. Flexible language understanding and connected services need an available backend; clearly indicate when unavailable. |
+
+## Voice commands and scheduling
+
+| ID | Feature | Basic | Connect | Required outcome |
+| --- | --- | --- | --- | --- |
+| F29 | Limited local voice commands | Yes | Yes | Recognize a small fixed command set on the device without cloud access. Candidates: start focus, stop timer and volume down. Final phrases and recognition reliability require hardware validation. |
+| F30 | Natural-language schedules | Community extensions only | Yes | Interpret one-off, recurring and conditional reminders. Confirm the interpreted schedule before saving and ask when intent or timing is unclear. |
+
+- Local commands must produce clear feedback and must not guess an unsupported action.
+  The knob remains available; hardware mute also disables local voice commands.
+- Connect example: “Remind me to drink water every hour while I’m at my desk.”
+  Confirm the interval, active hours and presence condition before activating it.
+- Support recurrence such as hourly, weekdays or specified times, with conditions
+  such as at-desk presence, selected hours and outside meetings. Presence conditions
+  require radar hardware; meeting conditions require calendar access.
+- Users can review, edit, pause or cancel schedules in the app. Changes must update
+  pending nudges and desktop escalations without duplicates.
+- Define timezone, missed-occurrence and resumption rules before implementation.
+  Do not send a burst of missed nudges when someone returns to the desk.
+- Scope is desk reminders and routines, not unrestricted AI tasks. F30 follows the
+  core reminder flow; it is not a prerequisite for the first voice bench check.
 
 ## Companion app
 

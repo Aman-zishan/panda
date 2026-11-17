@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Meeting agent | Optional Connect feature: join when invited/enabled, save transcripts, propose reminders for confirmation and send approved schedules to PANDA. See F25–F28 in the feature matrix. |
 | 2026-11-17 | Product philosophy | Approved. Use [the philosophy](product-philosophy.md) to assess every new feature. |
 | 2026-11-17 | Product rule | Add device features only when physical interaction reduces distraction. Keep detail, history and settings in the app. |
 | 2026-11-17 | PANDA Basic | Open-source firmware, hardware files, local focus/world, basic setup/control app and audio/event interfaces with examples. No complete Connect backend promised. |
@@ -26,6 +27,8 @@ you focus, capture thoughts and take breaks through simple physical interactions
 without pulling you away from your work.
 
 ## To decide
+
+- Meeting platform support and transcript retention.
 
 - Connect pricing and service scope.
 - Speech-to-text and language-model providers.

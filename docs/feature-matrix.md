@@ -59,6 +59,24 @@ Basic includes setup, device controls and status. Connect includes the integrate
 | F21 | Connect desktop notifications | 2 | Surface relevant device events without becoming a general notification feed. Delivery and duplication rules need definition. |
 | F22 | Both apps: platform scope | 1 / later | PC first. Mobile and Bluetooth-assisted setup are deferred. |
 
+## Optional meeting agent — Connect
+
+| ID | Feature | Scope | Required outcome |
+| --- | --- | --- | --- |
+| F25 | Join a meeting | Connect only; platform support to be decided | Join only when invited or explicitly enabled for the meeting. Make the agent's presence and transcription clear to participants and follow the platform's consent requirements. |
+| F26 | Meeting transcript | Connect app | Save the transcript for review, with controls to stop capture and delete the record. Keep transcripts off the robot's display. |
+| F27 | Extract reminders | Connect app | Identify tasks assigned to the user and proposed due times. Show the source passage; ask for confirmation or clarification before scheduling. |
+| F28 | Deliver meeting reminders | Connect app + device | Save approved reminders, send their schedule to the paired PANDA and show whether delivery succeeded. PANDA nudges at the due time and supports snooze or acknowledgement. |
+
+Cancellation or edits must update the device schedule. Reconnecting must not produce
+duplicate reminders. Pending device delivery must be visible in the app. Local reminder
+storage, timekeeping and restart behaviour need implementation requirements before
+offline delivery can be promised. PANDA remains quiet during active meetings.
+
+This extends the PDF's calendar awareness. It is optional, follows the core reminder
+flow, and is not required to validate the first breadboard prototype. Meeting platforms,
+retention defaults and the delivery mechanism remain to be decided.
+
 ## Build requirements shared by both editions
 
 - USB power, no battery; signal levels and supply limits must match the selected parts.

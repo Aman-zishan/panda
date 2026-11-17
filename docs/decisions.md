@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Product philosophy | Approved. Use [the philosophy](product-philosophy.md) to assess every new feature. |
 | 2026-11-17 | Product rule | Add device features only when physical interaction reduces distraction. Keep detail, history and settings in the app. |
 | 2026-11-17 | PANDA Basic | Local controls, sounds, focus timer and tiny world. Release firmware, schematics and enclosure files after validation. |
 | 2026-11-17 | PANDA Connect | Voice understanding, reminders, notes, calendar integration and companion app. Keep implementation closed. |

@@ -1,5 +1,7 @@
 # PANDA product philosophy
 
+Approved 2026-11-17. Use these rules to assess every new feature.
+
 PANDA means **Presence-Aware Non-verbal Desk Assistant**. It is a calm physical desk
 companion that should make the next useful action easier without asking for attention,
 opening a feed or duplicating a phone.

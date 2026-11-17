@@ -128,6 +128,9 @@ into `docs/`.
 
 ## Release plans
 
+- [ ] Review the [Basic release scope](basic-release.md): standalone features,
+      public build materials and release readiness.
+
 PANDA Basic includes open-source hardware files, firmware, a community setup/control
 app and audio/event interfaces with examples. PANDA Connect is the private, paid app
 with maintained integrations and hosted speech/AI services. The approved

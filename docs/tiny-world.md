@@ -1,6 +1,6 @@
 # Tiny-world rules
 
-Draft for [#8](https://github.com/Aman-zishan/panda/issues/8). Included in Basic and
+Approved 2026-11-17 · [#8](https://github.com/Aman-zishan/panda/issues/8). Included in Basic and
 Connect, with local state saved across restarts.
 
 A small landscape and its creature quietly reflect focus and rest. They are company
@@ -45,6 +45,6 @@ Use distinct poses and shapes that work on the small monochrome display. Keep mo
 of the scene still; animation is brief and tied to a meaningful change. No scrolling
 text, world menus, separate alerts from the creature or flashing to attract attention.
 
-Before closing this ticket, review whether someone can recognise focus, pause,
-completion and rest without a manual, and whether any behaviour feels like an
-obligation. Validate legibility and distraction on the real display later.
+On the real display, check whether someone can recognise focus, pause, completion
+and rest without a manual, and whether any behaviour feels like an obligation.
+Legibility and distraction still require hardware validation.

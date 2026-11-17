@@ -52,5 +52,7 @@ corresponding components. Local voice commands still require validation.
 | Community integration examples | ✓ | ✓ |
 
 Community extensions may add features beyond the bundled Basic experience.
+Sound playback is included; audio files are supplied by the builder. See the
+[Basic release scope](basic-release.md) for what the public build contains.
 Connect uses the same hardware capabilities. Pricing and supported meeting platforms
 are still to be announced. See [licences](../LICENSE.md) for reuse terms.

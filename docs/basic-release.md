@@ -18,7 +18,7 @@ feedback on the device; setup and detailed settings in the companion app.
 | Local voice | Activate listening by wake word or long press and use a small documented English command set for focus, timer and volume. Exact phrases and recognition quality require validation. |
 | Presence and breaks | Use presence-aware rest, break nudges and display sleep with the supported sensor. |
 | Physical character and privacy | Use the supported head movement, visor and hardware microphone mute. |
-| Community desktop app | Set up the device, change basic settings, use controls and inspect status locally. |
+| Community desktop app | Set up the device, change basic settings, assign builder-supplied sounds, use controls and inspect status locally. |
 | Build materials | Obtain source, parts list, verified wiring, enclosure files and instructions to reproduce the supported build. A custom PCB is not required. |
 | Extension interfaces | Access documented device events, controls and audio interfaces, with a working community integration example. |
 
@@ -29,6 +29,11 @@ Audio files are supplied by each builder and are not included in the public rele
 Our prototype uses `animal-duckquack-rising.mp3` from Casper's sound-effects site;
 builders can choose their own sounds under the source's applicable terms. See
 [Casper's usage terms](https://www.casper.tw/sound-effects/license/).
+
+Missing sound files must not prevent setup, focus or local voice controls. Listening,
+confirmation and completion remain clear through the display and status light.
+The release documents the supported file format and cue assignments so builders
+can supply clips without our private audio tools or recordings.
 
 ## What can arrive earlier
 
@@ -56,6 +61,8 @@ on the device. Detailed connected experiences stay in their companion applicatio
   and known limitations are listed with the release.
 - With internet and the app disconnected after setup, local controls, focus, world
   persistence and the documented voice commands still work.
+- With no audio files installed, visual feedback still makes the same core actions
+  understandable. Adding or replacing sounds does not require a hosted service.
 - Every advertised hardware feature has been checked on the listed build. Muting
   the microphone prevents capture, including through extension interfaces.
 - Source, dependencies and distributed assets have recorded reuse terms consistent

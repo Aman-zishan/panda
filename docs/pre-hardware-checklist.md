@@ -133,5 +133,6 @@ into `docs/`.
 
 PANDA Basic includes open-source hardware files, firmware, a community setup/control
 app and audio/event interfaces with examples. PANDA Connect is the private, paid app
-with maintained integrations and hosted speech/AI services. Licences and availability
-will be documented with each release.
+with maintained integrations and hosted speech/AI services. The approved
+[licence split](../LICENSE.md) covers software, hardware and documentation;
+asset permissions and availability will be documented with each release.

@@ -4,6 +4,7 @@
 
 | Date | Topic | Decision |
 | --- | --- | --- |
+| 2026-11-17 | Release licences | Basic software: GPL-3.0-only. Hardware designs: CERN-OHL-S-2.0. Documentation: CC-BY-SA-4.0. Connect remains proprietary; branding and asset exceptions are listed in [LICENSE.md](../LICENSE.md). |
 | 2026-11-17 | Name and logo | Accurate “Built with PANDA” and “Compatible with PANDA” descriptions are allowed. Modified products use their own branding; official status and product use of the logo require permission. See [BRAND.md](../BRAND.md). |
 | 2026-11-17 | Prototype speech | English first. Start with Deepgram Nova-3; validate accuracy and response time with real commands. |
 | 2026-11-17 | Prototype language model | Start with Groq-hosted GPT-OSS 20B for command interpretation. Validate extracted actions and schedules before relying on them. |
@@ -46,4 +47,3 @@ without pulling you away from your work.
 - Device/backend message format.
 - GPIO assignments after inspecting the hardware.
 - Enclosure dimensions after measuring the parts.
-- Release licences for Basic software, hardware and documentation.

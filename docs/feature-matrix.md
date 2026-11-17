@@ -52,5 +52,5 @@ corresponding components. Local voice commands still require validation.
 | Community integration examples | ✓ | ✓ |
 
 Community extensions may add features beyond the bundled Basic experience.
-Connect uses the same hardware capabilities. Pricing, release licences and supported
-meeting platforms are still to be announced.
+Connect uses the same hardware capabilities. Pricing and supported meeting platforms
+are still to be announced. See [licences](../LICENSE.md) for reuse terms.

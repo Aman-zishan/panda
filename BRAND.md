@@ -18,8 +18,8 @@ requires permission from the project owner. Request permission through
 
 This policy covers branding. It does not grant a licence to code, hardware designs,
 documentation or other assets. Those materials are governed by their applicable
-licences when provided. Commercial reuse of released open-source materials is
+licences. Commercial reuse of released open-source materials is
 governed by those licences; it does not imply endorsement by PANDA.
 
-Release licences have not yet been selected. A public repository alone does not
-grant open-source reuse permissions.
+See [LICENSE.md](LICENSE.md) for the licence scopes and asset exceptions. This
+brand policy does not restrict rights granted under those licences.

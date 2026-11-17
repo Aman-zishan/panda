@@ -9,6 +9,7 @@ This repository contains PANDA's website, product documentation and build plans.
 - [Product philosophy](product-philosophy.md) — principles behind the device.
 - [Decision log](decisions.md) — recorded product and technology choices.
 - [Sound character](sounds.md) — agreed direction and proposed vocabulary.
+- [Licences](../LICENSE.md) — reuse terms for software, hardware, documentation and assets.
 - [Build preparation](pre-hardware-checklist.md) — requirements and preparation tasks.
 - [Milestones](https://github.com/Aman-zishan/panda/milestones) — project progress.
 - [Issues](https://github.com/Aman-zishan/panda/issues) — tasks and open questions.

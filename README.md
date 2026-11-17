@@ -24,8 +24,8 @@ without pulling you away from your work.
 
 ## Current status
 
-See the [brand policy](BRAND.md) for use of the PANDA name and logo. Release licences
-for code, hardware and assets are still being selected.
+See [licences](LICENSE.md) for software, hardware, documentation and asset terms,
+and the [brand policy](BRAND.md) for use of the PANDA name and logo.
 
 Planning Stage 1 while waiting for the complete breadboard hardware delivery.
 

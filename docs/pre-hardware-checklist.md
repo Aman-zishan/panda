@@ -38,8 +38,8 @@ when scope changes; keep the original concept PDF as a historical reference.
 - [ ] Define how the system turns a transcript into a reminder, note or to-do.
 - [ ] Define the focus-session rules: default length, pause/resume, completion and
       what happens when a session is interrupted.
-- [ ] Define the tiny-world state: what makes it thrive, wilt and recover. It must
-      never die and must recover within one day.
+- [ ] Review the [tiny-world rules](tiny-world.md): focus, rest, growth and recovery.
+      It must never punish and must recover within one day.
 - [ ] List every user-visible device state: idle, listening, recording, processing,
       confirmed, focus running, focus complete, reminder, muted, offline and error.
 - [ ] Decide what the LED, sound and OLED confirmation do for each state.

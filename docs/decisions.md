@@ -15,9 +15,9 @@
 | 2026-11-16 | Backend | Python + FastAPI. |
 | 2026-11-16 | PC app | Electron + React + TypeScript. |
 
-## Awaiting approval
+## Product promise
 
-### Product promise — [#1](https://github.com/Aman-zishan/panda/issues/1)
+Approved 2026-11-17 · [#1](https://github.com/Aman-zishan/panda/issues/1)
 
 PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that helps
 you focus, capture thoughts and take breaks through simple physical interactions,

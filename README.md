@@ -2,11 +2,9 @@
 
 ![PANDA desk companion](docs/assets/panda-banner.png)
 
-PANDA means **Presence-Aware Non-verbal Desk Assistant**: a calm physical desk
-companion for quick voice capture, focus and gentle glanceable feedback.
-
-It should make the next useful action easier without asking for attention, opening a
-feed or duplicating a phone.
+PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that helps
+you focus, capture thoughts and take breaks through simple physical interactions,
+without pulling you away from your work.
 
 ## Start here
 

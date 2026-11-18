@@ -3,8 +3,7 @@
 Approved 2026-11-17 · [#8](https://github.com/Aman-zishan/panda/issues/8). Included in Basic and
 Connect, with local state saved across restarts.
 
-A small landscape and its creature quietly reflect focus and rest. They are company
-at the desk, not another thing to look after. No feeding, scores, streaks or daily chores.
+A creature and its landscape reflect focus and rest. No feeding, scores, streaks or daily chores.
 
 ## What you see
 
@@ -25,26 +24,20 @@ The creature never dies, becomes ill or asks to be rescued.
 
 ## Breaks and recovery
 
-**Stage 1:** a resting scene suggests a pause after focus. Acknowledging a prompt is
-not proof of taking a break. Without presence sensing, PANDA does not judge desk
-time, skipped breaks or absence, and the world does not wilt.
+| Hardware | Break behaviour |
+| --- | --- |
+| Stage 1 | After focus, show a resting scene. Acknowledgement cannot confirm a break. Without a presence sensor, never infer desk time, absence or skipped breaks. The plant never wilts. Head movement is optional. |
+| With presence sensing | Rest while the person is away and welcome them back. Deferring a break nudge may briefly droop the plant. Preserve growth and keep the creature calm. Suppress attention cues in quiet mode. Never infer productivity from presence or wilt on uncertain readings. |
 
-**With presence sensing:** being away lets the creature rest. Returning brings a
-small welcome. A deferred break nudge may gently droop a plant, but never remove
-growth or make the creature distressed. Quiet mode also suppresses these attention
-cues. Presence alone is not a measure of productivity.
+A detected break or the next completed focus session restores a drooping plant.
+Any droop clears within a day, even without action. See [focus sessions](focus-experience.md)
+for the break interval and absence threshold.
 
-A detected break or the next completed focus session restores the plant. Any droop
-also clears within a day without requiring action. Sensor uncertainty must not
-cause wilting. Break timing and the duration that counts as a break belong in the
-focus-experience requirements; no head movement or sensor is needed for Stage 1.
+## Display checks
 
-## Keep it glanceable
+Use distinct poses and shapes on the monochrome display. Keep the scene still
+between brief state-change animations. Exclude scrolling text, world menus,
+creature alerts and flashing.
 
-Use distinct poses and shapes that work on the small monochrome display. Keep most
-of the scene still; animation is brief and tied to a meaningful change. No scrolling
-text, world menus, separate alerts from the creature or flashing to attract attention.
-
-On the real display, check whether someone can recognise focus, pause, completion
-and rest without a manual, and whether any behaviour feels like an obligation.
-Legibility and distraction still require hardware validation.
+On hardware, check that someone can recognise focus, pause, completion and rest
+without a manual. Check for distraction or any sense of obligation.

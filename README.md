@@ -2,40 +2,31 @@
 
 ![PANDA enclosure render showing front, three-quarter, right, top and back views](docs/assets/panda-banner.png)
 
-PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that helps
-you focus, capture thoughts and take breaks through simple physical interactions,
-without pulling you away from your work.
+PANDA (Presence-Aware Non-verbal Desk Assistant) is a desk companion for focus sessions,
+quick voice captures and gentle break reminders. A knob, a small display and brief
+sound cues let you interact without reaching for your phone.
 
-## Start here
+**Status:** Stage 1 breadboard planning, awaiting hardware. This repository contains
+the website, requirements and build plans. Basic firmware and hardware build files
+will follow validation.
 
-- [PANDA website](https://aman-zishan.github.io/panda/) — Meet the project and find its documentation.
-- [Documentation](https://aman-zishan.github.io/panda/docs/) — Browse and search the project docs.
+[Website](https://aman-zishan.github.io/panda/) · [Documentation](https://aman-zishan.github.io/panda/docs/) · [Roadmap](https://github.com/Aman-zishan/panda/milestones)
 
-- [Product philosophy](docs/product-philosophy.md) — What belongs on PANDA, what
-  belongs in the companion app, and how we avoid building a tiny phone.
-- [Decision log](docs/decisions.md) — Confirmed choices and open decisions.
-- [Feature matrix](docs/feature-matrix.md) — Approved Basic and Connect feature scope.
-- [Basic release scope](docs/basic-release.md) — Approved scope of the standalone public build.
-- [Connect release scope](docs/connect-release.md) — Approved first paid release and later additions.
-- [Knob interactions](docs/knob-interactions.md) — Approved physical controls.
-- [Tiny-world rules](docs/tiny-world.md) — Approved focus, rest and growth behaviour.
-- [Focus experience](docs/focus-experience.md) — Approved session flow and interruption handling.
-- [GitHub milestones](https://github.com/Aman-zishan/panda/milestones) — The live
-  roadmap and work tracker.
-- [Pre-hardware checklist](docs/pre-hardware-checklist.md) — Work to complete while
-  waiting for the Stage 1 delivery.
-- [Project guide](docs/repository-structure.md) — Where to find documentation and source files.
-- [Contributing](CONTRIBUTING.md) — Edit Markdown and build the documentation locally.
-- [Enclosure concept sketches](docs/PANDA_enclosure_concept_sketches.pdf) — Download the enclosure sketch PDF.
-- [Original concept](docs/PANDA_desk_companion_concept_v1.pdf) — The initial proposal;
-  the feature matrix and decision log record later changes.
+## Editions
 
-## Current status
+- **Basic** runs locally and includes open-source firmware, hardware build files and a community setup app.
+- **Connect** adds a paid companion app, hosted voice capture and scheduled reminders.
 
-See [licences](LICENSE.md) for software, hardware, documentation and asset terms,
-and the [brand policy](BRAND.md) for use of the PANDA name and logo.
+See the [feature comparison](docs/feature-matrix.md) for planned capabilities and the
+[pre-hardware checklist](docs/pre-hardware-checklist.md) for current build work.
 
-Planning Stage 1 while waiting for the complete breadboard hardware delivery.
+## Design files
 
-This repository contains the website, product philosophy and build plans. PANDA Basic
-code and build files will be added as they are validated and released.
+- [Enclosure concept sketches (PDF)](docs/PANDA_enclosure_concept_sketches.pdf)
+- [Original concept (PDF)](docs/PANDA_desk_companion_concept_v1.pdf) — historical proposal. Later choices are recorded in the [decision log](docs/decisions.md).
+
+## Contributing and licences
+
+See [Contributing](CONTRIBUTING.md) to edit and preview the site, or browse the
+[documentation index](docs/index.md). Reuse terms are in [LICENSE.md](LICENSE.md)
+and the [brand policy](BRAND.md).

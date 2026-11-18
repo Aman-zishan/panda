@@ -1,13 +1,8 @@
 # PANDA Connect release scope
 
-Approved 2026-11-17 alongside the [Basic release scope](basic-release.md). The
-[feature matrix](feature-matrix.md) describes the planned editions; not every Connect
-feature is part of its first release.
-
-Connect is the paid, maintained companion app and managed service. It adds quick
-voice capture and useful follow-up to the same physical PANDA. Following the
-[product philosophy](product-philosophy.md), the device gives brief feedback and
-nudges; transcripts, lists, editing and settings stay in the app.
+Approved 2026-11-17. Connect is the paid, maintained app and hosted service for
+the same hardware as [Basic](basic-release.md). PANDA gives brief physical feedback.
+Transcripts, lists, editing and settings live in the app.
 
 ## First release
 
@@ -22,29 +17,23 @@ nudges; transcripts, lists, editing and settings stay in the app.
 | Maintained companion app | Set up the device, view transcripts, search saved items, edit schedules and manage preferences. |
 | Managed services | Use hosted speech, AI and storage without configuring separate provider accounts or API keys. Receive supported app updates. |
 
-This is assistance with the listed tasks, not unrestricted automation or an on-device
-chat interface. It does not add feeds, productivity scores or long spoken replies.
+Requests are limited to the supported tasks. Exclude unrestricted automation,
+on-device chat, feeds, productivity scores and long spoken replies.
 
 ## Later releases
 
-Calendar integration and automatic meeting quiet mode come later. The optional
-meeting agent also comes later: joining when invited or enabled, producing
-transcripts and proposing reminders for approval before sending them to PANDA.
-Supported platforms and consent behaviour must be defined before those features ship.
+Calendar integration and automatic meeting quiet mode come later. An optional
+meeting agent may join when invited or enabled, transcribe meetings and send
+proposed reminders to PANDA after approval. Define supported platforms and consent before launch.
 
-## Internet, outages and local use
+## Connectivity and outages
 
-Hosted interpretation, new connected captures and synchronisation require an
-internet connection and an available service. A failed request must never appear
-saved. Reconnection must not silently replay a cancelled request or create duplicates.
-
-Basic's local controls, focus, world and supported local voice commands continue
-without Connect, including when service access ends. The same hardware capabilities
-remain available; Connect does not unlock presence, head movement or microphone mute.
-
-Connected reminder delivery during outages is not yet an offline guarantee. Before
-release, define which saved reminders can run locally, what happens to missed ones
-and whether the desktop app must be running. Explain those limits in the app.
+- Hosted interpretation, new captures and sync require internet and service availability.
+- Show failed saves. Reconnection must preserve cancellations and prevent duplicates.
+- Local controls, focus, world state and supported local voice commands remain available
+  during outages and after service expiry. Presence, head movement and mute belong to both editions.
+- Offline reminder delivery is unresolved. Before release, document in the app which
+  saved reminders run locally, how missed reminders work and when the desktop app must run.
 
 ## Ready for a paid release when
 
@@ -57,5 +46,4 @@ and whether the desktop app must be running. Explain those limits in the app.
 - Pricing, usage limits, supported desktop platforms and required connections are
   published. Account expiry does not disable Basic's local device functions.
 
-This page defines the product offering. Release dates and the remaining service
-policies are still to be decided.
+Release dates and remaining service policies are open.

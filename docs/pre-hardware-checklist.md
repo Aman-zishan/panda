@@ -1,50 +1,20 @@
-# PANDA pre-hardware checklist
+# Stage 1 pre-hardware checklist
 
-Use this checklist while waiting for the complete Stage 1 delivery. In this period,
-the ESP32-S3, breadboards, jumper wires, microphone, amplifier, speaker, OLED and
-rotary encoder are all treated as unavailable. Do not assign GPIO pins or claim that
-hardware behaviour has passed until the breadboard is assembled and tested.
+The complete breadboard kit is pending. Assign GPIO pins after wiring and record
+hardware results only after bench testing.
 
-Use the [feature matrix](feature-matrix.md), [decision log](decisions.md) and
-[product philosophy](product-philosophy.md) for current scope. The
-[original concept PDF](PANDA_desk_companion_concept_v1.pdf) is a historical reference.
+## Product behaviour
 
-## 1. Lock the decisions that shape the build
-
-- [x] Choose the wake word. `Panda` is the current candidate.
-    - Panda
-- [x] Choose the prototype speech-to-text provider: Deepgram Nova-3, English.
-- [x] Choose the prototype language model: GPT-OSS 20B hosted by Groq.
-- [x] Choose whether to adapt an existing ESP32 voice-firmware project or build new
-      firmware.
-    - existing ESP-SR firmware
-- [x] Choose the backend language and framework: Python with FastAPI.
-- [x] Choose the PC companion-app technology: Electron with React and TypeScript.
-
-Record confirmed choices in [decisions.md](decisions.md). Update the feature matrix
-when scope changes; keep the original concept PDF as a historical reference.
-
-### Recorded decisions
-
-| Date | Decision | Reason |
-|---|---|---|
-| 2026-11-16 | Backend: Python with FastAPI | It supports asynchronous I/O and persistent WebSocket connections while keeping the first backend quick to build and easy to change. |
-| 2026-11-16 | PC companion app: Electron with React and TypeScript | One desktop codebase can ship on macOS, Windows and Linux, and it has mature support for local networking, notifications and desktop packaging. |
-
-## 2. Define the product behaviour
-
-- [x] Review [voice capture outcomes](voice-capture.md): examples, confirmation,
-      correction and failure for notes, to-dos and reminders.
+- [x] Record prototype stack and wake-word choices in the [decision log](decisions.md).
+- [x] Review [voice capture](voice-capture.md), [focus sessions](focus-experience.md)
+      and [tiny-world behaviour](tiny-world.md).
+- [x] Review [Basic](basic-release.md) and [Connect](connect-release.md) release scope.
 - [ ] Define exact local voice phrases and spoken snooze/acknowledgement commands.
-- [x] Review the [focus experience](focus-experience.md): default length, pause/resume,
-      completion and what happens when a session is interrupted.
-- [x] Review the [tiny-world rules](tiny-world.md): focus, rest, growth and recovery.
-      It must never punish and must recover within one day.
 - [ ] List every user-visible device state: idle, listening, recording, processing,
       confirmed, focus running, focus complete, reminder, muted, offline and error.
 - [ ] Decide what the LED, sound and OLED confirmation do for each state.
 
-## 3. Write the interfaces before building them
+## Device and backend interfaces
 
 - [ ] Define the persistent device-to-backend connection and message types.
 - [ ] Define backend commands for sound, LED state, OLED update, confirmation,
@@ -57,7 +27,7 @@ when scope changes; keep the original concept PDF as a historical reference.
 - [ ] Decide how credentials are supplied locally. Wi-Fi credentials and API keys
       must stay out of Git.
 
-## 4. Prepare the repository
+## Repository setup
 
 - [x] Add a `README` describing PANDA and linking the project documents.
 - [ ] Add run instructions when implementation begins.
@@ -70,7 +40,7 @@ when scope changes; keep the original concept PDF as a historical reference.
       logic can be developed and tested separately.
 - [x] Add a decision log for confirmed choices and open decisions.
 
-## 5. Prepare the physical build
+## Parts and desk layout
 
 - [ ] Check the order includes every Stage 1 item: ESP32-S3 DevKit N16R8 with
       headers, INMP441, MAX98357A with headers and terminal, 4-ohm 3-W speaker,
@@ -85,7 +55,7 @@ when scope changes; keep the original concept PDF as a historical reference.
 - [ ] Do not finalize the shell, collar or head dimensions yet. Measure the actual
       parts first.
 
-## 6. Prepare validation before assembly
+## Bench tests to prepare
 
 - [ ] Make a Stage 1 bench-check sheet for microphone, speaker, OLED, onboard LED,
       knob, Wi-Fi and USB power.
@@ -98,8 +68,7 @@ when scope changes; keep the original concept PDF as a historical reference.
       no false presses during one hour idle.
 - [ ] Write the focus check: complete a 25-minute session without app interaction.
 - [ ] Prepare a daily three-week log. Each workday, use voice capture, the knob and
-      the tiny world once presence and head movement are available. Stage 1 uses bench
-      checks and a few working days of reliability checks.
+      the tiny world once presence and head movement are available.
 
 ## When the hardware arrives
 
@@ -108,33 +77,12 @@ when scope changes; keep the original concept PDF as a historical reference.
 3. Bring up one component at a time: OLED, LED, encoder, speaker/amplifier, then
    microphone and Wi-Fi.
 4. Record a bench check after each component works.
-5. Check Stage 1 reliability for a few working days. Defer the three-week usefulness
-   test until presence and head movement work together.
+5. Check Stage 1 reliability over a few working days.
 
-## Explicitly deferred until later stages
+## Later hardware stages
 
 - Presence radar and hardware microphone mute switch (Stage 2).
 - Servo, head, collar, visor LED, PETG shell, carrier board and final power design
   (Stage 3).
 - A custom PCB. Build one only after the validation tests establish the final pin map,
   selected modules, power behaviour and enclosure layout.
-
-## GitHub tracker
-
-Milestones and active work tickets live in the
-[GitHub tracker](https://github.com/Aman-zishan/panda/milestones). Keep temporary
-thinking in the ignored `notes/` folder; move only settled decisions and evidence back
-into `docs/`.
-
-## Release plans
-
-- [x] Review the [Basic release scope](basic-release.md): standalone features,
-      public build materials and release readiness.
-- [x] Review the [Connect release scope](connect-release.md): first paid offering,
-      later integrations and service limits.
-
-PANDA Basic includes open-source hardware files, firmware, a community setup/control
-app and audio/event interfaces with examples. PANDA Connect is the private, paid app
-with maintained integrations and hosted speech/AI services. The approved
-[licence split](../LICENSE.md) covers software, hardware and documentation;
-asset permissions and availability will be documented with each release.

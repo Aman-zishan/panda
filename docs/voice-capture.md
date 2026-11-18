@@ -4,9 +4,6 @@ Approved 2026-11-17 · [#11](https://github.com/Aman-zishan/panda/issues/11). En
 Basic handles its documented local commands; the captures below belong to Connect.
 Community integrations may provide their own alternatives.
 
-Following the [product philosophy](product-philosophy.md), speak a quick thought,
-get brief feedback, then return to work. Full transcripts and editing stay in the app.
-
 ## What gets saved
 
 | Request | Result | Confirmation |
@@ -16,26 +13,16 @@ get brief feedback, then return to work. Full transcripts and editing stay in th
 | “Remind me tomorrow at 3 PM to order jumper wires.” | A proposed reminder with an explicit date, time and action. | Show the resolved date/time and short action; save and activate only after confirmation. |
 | “Remind me to drink water every hour while I’m at my desk.” | A proposed recurring schedule with its interval, active hours and supported presence condition. | Clarify missing scheduling details, then confirm. If the condition cannot be supported, do not silently drop it. |
 
-For reminders, one press confirms the visible proposal, turning discards it, and a
-long press starts a replacement request, following the [knob controls](knob-interactions.md).
-A proposal is not a saved reminder. If it expires or is cancelled, nothing is scheduled.
-If the whole schedule cannot be checked in one glance, review it in the app before
-activation; do not hide important conditions behind a generic “Confirm?” prompt.
+Press to confirm a visible reminder, turn to discard, or long-press to replace it.
+Cancelled or expired proposals schedule nothing. If the full schedule takes more
+than a glance, review it in the app before activation. See [knob controls](knob-interactions.md).
 
 ## Listening and clarification
 
-Say the wake word or long-press, release and speak after the ready indication.
-Listening, processing and saved are distinct states. No sound files are required:
-display and light feedback must communicate them too. PANDA does not speak replies.
-
-An unclear request gets one brief question, such as “What time?”, then waits for an
-explicit reply. It must not guess a date, turn an uncertain transcript into a task,
-or claim success. A missing reply ends the interaction without saving. For the first
-release, ask people to separate requests containing several unrelated actions.
-
-Basic must explain unsupported connected requests without sending them to a hosted
-service automatically. Its local commands, such as starting focus, remain available.
-The exact supported phrases still require hardware validation.
+- Use the wake word or long-press and release. Speak after the ready cue. Display and light must distinguish listening, processing and saved, even without sound files. PANDA never speaks replies.
+- For an unclear request, ask one brief question such as “What time?” and wait for an explicit reply. End without saving if none arrives. Never guess dates or create tasks from uncertain transcripts.
+- In the first release, ask the user to split unrelated actions into separate requests.
+- Basic explains unsupported requests locally. Supported local commands, including focus, remain available. Exact phrases need hardware validation.
 
 ## Correction, cancellation and failure
 

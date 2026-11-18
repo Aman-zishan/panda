@@ -17,38 +17,27 @@ and Connect; connected reminders require Connect or a community integration.
 | Processing voice | No action | Cancel the pending request | No additional action |
 | Asking to confirm a proposed action | Discard the proposal | Confirm the displayed action | Replace the unsaved proposal with new voice input |
 
-Only one prompt is shown at a time. A voice interaction temporarily takes priority;
-after it ends, return to the underlying focus state or unresolved nudge. Unattended
-prompts become silent rather than repeatedly sounding. Never cycle through a list.
+Show one prompt at a time. Voice takes priority, then returns to the underlying
+focus state or unresolved nudge. Unattended prompts fall silent. Never cycle through a list.
 
-## Starting defaults
+## Defaults and timing
 
-- Focus starts at 25 minutes. Turning changes it in five-minute steps, from 5 to 120
-  minutes. An unstarted selection clears after five seconds back to the saved default.
-- While paused, adjust the remaining time in five-minute steps, clamped at zero.
-  Zero shows “End focus?”; only a short press ends it. Turning up keeps the session.
-- Snooze is five minutes initially. One turn in either direction snoozes once;
-  further turns in the same gesture must not change the underlying timer or volume.
-- Long press for about one second, release, then speak after the listening cue.
-  There is no need to keep holding while talking. Release does not trigger a short
-  press. Speech ends on silence, with a bounded capture time. The wake word remains
-  the hands-free alternative.
-- A sleeping display wakes on the first interaction without carrying out its action.
+| Setting | Behaviour |
+| --- | --- |
+| Focus duration | Default 25 minutes. Adjust in five-minute steps from 5 to 120. An unstarted selection reverts to the saved default after five seconds. |
+| Paused timer | Adjust remaining time in five-minute steps down to zero. At “End focus?”, press to end or turn up to keep the session. |
+| Snooze | Default five minutes. One turn in either direction snoozes once. Ignore further turns in the same gesture to protect timer and volume settings. |
+| Voice activation | Hold about one second, release, then speak after the cue. Release never triggers a short press. Capture ends on silence or at its time limit. The wake word also activates listening. |
+| Display asleep | The first interaction only wakes the display. |
 
-Timing and turn sensitivity need checking with the real knob. Settings such as
-default duration, snooze duration and volume remain available in the companion app.
+Set default focus duration, snooze duration and volume in the app. Validate timing and turn sensitivity on the physical knob.
 
-## Keep it calm and predictable
+## Feedback and cancellation
 
-Knob turns are silent. Show only the current duration, volume or brief confirmation.
-Changing volume never overrides meeting quiet mode or microphone mute. Holding a
-muted device shows muted status and captures nothing. Local focus controls work
-offline; unavailable voice services show a brief failure, never a false success.
-
-Cancellation stops an uncommitted voice action from being saved or executed. A late
-response must not revive it. If an action was already saved, show that outcome;
-editing it belongs in the app. Acknowledging a reminder clears its nudge, not the
-underlying task. Snooze or acknowledgement also ends its pending desktop escalation.
+- Turns are silent. Briefly show the duration, volume or confirmation. Volume changes respect quiet mode and microphone mute.
+- Holding while muted shows mute status and captures nothing. Focus works offline. Unavailable voice services show a brief failure.
+- Cancellation prevents pending actions from executing or saving, even if a response arrives late. Show the outcome of an already saved action and edit it in the app.
+- Acknowledgement clears the nudge and preserves the task. Snooze and acknowledgement both stop pending desktop escalation.
 
 ## Check on hardware
 

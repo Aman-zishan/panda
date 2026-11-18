@@ -1,16 +1,11 @@
 # PANDA Basic release scope
 
-Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). The
-[feature matrix](feature-matrix.md) defines the editions; this page defines what
-someone must receive to build and use Basic without a private PANDA service.
-The [Connect release scope](connect-release.md) covers the paid app and managed services.
+Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). Basic is the standalone public build.
 
-## A useful standalone companion
+## Standalone features
 
-After setup, Basic runs its local features with just USB power. It requires no
-PANDA account, subscription, cloud API key or continuously running desktop app.
-The [product philosophy](product-philosophy.md) applies: physical controls and brief
-feedback on the device; setup and detailed settings in the companion app.
+After setup, Basic needs only USB power. Local features work without an account,
+subscription, cloud API key, internet connection or running desktop app.
 
 | Included in the eventual public build | What the person can do |
 | --- | --- |
@@ -23,36 +18,29 @@ feedback on the device; setup and detailed settings in the companion app.
 | Build materials | Obtain source, parts list, verified wiring, enclosure files and instructions to reproduce the supported build. A custom PCB is not required. |
 | Extension interfaces | Access documented device events, controls and audio interfaces, with a working community integration example. |
 
-The microphone has a useful local role. Connecting it to an external service is an
-optional extension, not a requirement for Basic's bundled commands or controls.
+External microphone services are optional community extensions.
 
-Audio files are supplied by each builder and are not included in the public release.
-Our prototype uses `animal-duckquack-rising.mp3` from Casper's sound-effects site;
-builders can choose their own sounds under the source's applicable terms. See
-[Casper's usage terms](https://www.casper.tw/sound-effects/license/).
+## Audio files
 
-Missing sound files must not prevent setup, focus or local voice controls. Listening,
-confirmation and completion remain clear through the display and status light.
-The release documents the supported file format and cue assignments so builders
-can supply clips without our private audio tools or recordings.
+Builders supply audio clips under the source's terms. The prototype uses
+`animal-duckquack-rising.mp3` from [Casper's sound-effects library](https://www.casper.tw/sound-effects/license/).
+Publish supported formats and cue assignments. Setup, focus and local voice must
+work without clips, private recordings or audio tools. The display and light
+communicate listening, confirmation and completion.
 
-## What can arrive earlier
+## Stage 1 preview
 
-A Stage 1 breadboard preview can cover the timer, knob, display, local voice and
-saved world state as they are validated. Label previews with their actual supported
-features and parts. They do not imply that presence, the mute switch, head movement
-or the enclosure have been tested. Those remain part of Basic as later hardware
-stages become ready, rather than paid upgrades.
+Label breadboard previews with tested parts and features. Candidates include the
+timer, knob, display, local voice and saved world state. Presence, hardware mute,
+head movement and the enclosure belong to later Basic hardware stages.
 
-## Outside the bundled release
+## Connected features
 
-Basic does not include flexible AI requests, voice notes or to-dos, connected
-reminder scheduling, calendar and meeting services, desktop escalation, hosted
-storage or managed AI. Those are Connect features. Community integrations may add
-alternatives; Basic does not promise a complete self-hosted version of Connect.
-
-No phone-like dashboard, scrolling task lists, feeds or productivity scores belong
-on the device. Detailed connected experiences stay in their companion applications.
+The [feature matrix](feature-matrix.md) lists Connect services, including flexible
+voice requests, notes, tasks, scheduling, calendar, meetings, desktop escalation and
+hosted AI and storage. Community integrations may offer alternatives. A complete
+self-hosted Connect service is outside Basic scope. Keep lists, feeds and
+productivity scores off the device.
 
 ## Ready to release when
 
@@ -68,6 +56,3 @@ on the device. Detailed connected experiences stay in their companion applicatio
   the microphone prevents capture, including through extension interfaces.
 - Source, dependencies and distributed assets have recorded reuse terms consistent
   with [LICENSE.md](../LICENSE.md). Nothing essential requires an unreleased private file.
-
-These are release requirements, not claims that the current planning repository
-already contains a working Basic build.

@@ -3,10 +3,9 @@
 **Basic:** open-source device software and community app.
 **Connect:** private, paid app with maintained integrations and managed services.
 
-Planned scope. ✓ Included · — Not bundled. Hardware-dependent features require the
-corresponding components. Local voice commands still require validation.
-Release timing is separate from edition scope: see the approved
-[Basic](basic-release.md) and [Connect](connect-release.md) releases.
+✓ Included in planned scope · — Not bundled. Hardware features require their components.
+Local voice commands await validation. For release timing and readiness, see
+[Basic](basic-release.md) and [Connect](connect-release.md).
 
 | Features | Basic | Connect |
 | --- | :---: | :---: |
@@ -53,8 +52,5 @@ Release timing is separate from edition scope: see the approved
 | Documented audio and device interfaces | ✓ | ✓ |
 | Community integration examples | ✓ | ✓ |
 
-Community extensions may add features beyond the bundled Basic experience.
-Sound playback is included; audio files are supplied by the builder. See the
-[Basic release scope](basic-release.md) for what the public build contains.
-Connect uses the same hardware capabilities. Pricing and supported meeting platforms
-are still to be announced. See [licences](../LICENSE.md) for reuse terms.
+Builders supply audio files and may add community integrations. Connect pricing and
+supported meeting platforms are open. See [licences](../LICENSE.md) for reuse terms.

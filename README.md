@@ -1,6 +1,6 @@
 # PANDA
 
-![PANDA desk companion](docs/assets/panda-banner.png)
+![PANDA enclosure render showing front, three-quarter, right, top and back views](docs/assets/panda-banner.png)
 
 PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that helps
 you focus, capture thoughts and take breaks through simple physical interactions,
@@ -26,6 +26,7 @@ without pulling you away from your work.
   waiting for the Stage 1 delivery.
 - [Project guide](docs/repository-structure.md) — Where to find documentation and source files.
 - [Contributing](CONTRIBUTING.md) — Edit Markdown and build the documentation locally.
+- [Enclosure concept sketches](docs/PANDA_enclosure_concept_sketches.pdf) — Download the enclosure sketch PDF.
 - [Original concept](docs/PANDA_desk_companion_concept_v1.pdf) — The initial proposal;
   the feature matrix and decision log record later changes.
 

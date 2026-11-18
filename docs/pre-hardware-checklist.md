@@ -1,6 +1,6 @@
 # Stage 1 pre-hardware checklist
 
-The complete breadboard kit is pending. Assign GPIO pins after wiring and record
+The complete breadboard kit is pending. Record the actual GPIO assignments during breadboard assembly and record
 hardware results only after bench testing.
 
 ## Product behaviour
@@ -9,12 +9,20 @@ hardware results only after bench testing.
 - [x] Review [voice capture](voice-capture.md), [focus sessions](focus-experience.md)
       and [tiny-world behaviour](tiny-world.md).
 - [x] Review [Basic](basic-release.md) and [Connect](connect-release.md) release scope.
-- [ ] Define exact local voice phrases and spoken snooze/acknowledgement commands.
-- [ ] List every user-visible device state: idle, listening, recording, processing,
-      confirmed, focus running, focus complete, reminder, muted, offline and error.
+- [x] Review [knob controls](knob-interactions.md) and the [eight sound cues](https://github.com/Aman-zishan/panda/issues/7). Physical knob and speaker checks remain pending.
+- [ ] Specify Basic’s local focus, timer and volume phrases for hardware validation.
+- [ ] Define when connected reminders nudge, repeat and stop, including spoken snooze and acknowledgement. [#12](https://github.com/Aman-zishan/panda/issues/12)
+- [ ] Specify device feedback and companion-app responsibilities. [#13](https://github.com/Aman-zishan/panda/issues/13)
+- [ ] Document listening, transmission, storage and physical mute. [#14](https://github.com/Aman-zishan/panda/issues/14)
+- [ ] List which Connect services and materials stay private when Basic ships. [#15](https://github.com/Aman-zishan/panda/issues/15)
+- [ ] List every user-visible device state: idle, listening, recording, processing, awaiting confirmation,
+      saved, save unconfirmed, focus running, paused, complete, reminder, muted, offline and error.
 - [ ] Decide what the LED, sound and OLED confirmation do for each state.
 
 ## Device and backend interfaces
+
+Publish Basic’s device events, controls and audio interfaces with the public build.
+Connect backend implementation and hosted storage stay private.
 
 - [ ] Define the persistent device-to-backend connection and message types.
 - [ ] Define backend commands for sound, LED state, OLED update, confirmation,
@@ -31,9 +39,9 @@ hardware results only after bench testing.
 
 - [x] Add a `README` describing PANDA and linking the project documents.
 - [ ] Add run instructions when implementation begins.
-- [ ] Add a `.gitignore` for local credentials, build outputs and editor files.
-- [ ] Create folders for `firmware`, `backend`, `app`, `shared` and `tests` when
-      implementation begins.
+- [ ] Extend the existing `.gitignore` to cover local credential files alongside build outputs and editor files.
+- [ ] When implementation begins, organize public firmware, community app, shared interfaces
+      and tests here. Keep the Connect app and backend in private source control.
 - [ ] Add a single, initially blank pin-map file. It becomes the only source of GPIO
       assignments after the breadboard is wired.
 - [ ] Keep hardware access behind a firmware abstraction layer so the non-hardware
@@ -59,16 +67,13 @@ hardware results only after bench testing.
 
 - [ ] Make a Stage 1 bench-check sheet for microphone, speaker, OLED, onboard LED,
       knob, Wi-Fi and USB power.
-- [ ] Write the one-metre voice-capture test: ten spoken reminders with the expected
+- [ ] Write the connected voice-capture prototype test at one metre: ten spoken reminders with the expected
       text and time, aiming for at least nine correct.
-- [ ] Write the sound check: every defined state has its own identifiable sound.
-- [ ] Write the LED timing check: listening, muted and offline appear within one
-      second of the state change.
+- [ ] Check that each approved cue is identifiable on the speaker, quiet states stay silent and visual feedback works with no clips installed.
+- [ ] Write the LED timing check for listening, muted and offline. Target one second from the state change. Verify physical mute with the Stage 2 switch.
 - [ ] Write the encoder check: distinguish twist, short press and long press, with
       no false presses during one hour idle.
 - [ ] Write the focus check: complete a 25-minute session without app interaction.
-- [ ] Prepare a daily three-week log. Each workday, use voice capture, the knob and
-      the tiny world once presence and head movement are available.
 
 ## When the hardware arrives
 
@@ -77,12 +82,13 @@ hardware results only after bench testing.
 3. Bring up one component at a time: OLED, LED, encoder, speaker/amplifier, then
    microphone and Wi-Fi.
 4. Record a bench check after each component works.
-5. Check Stage 1 reliability over a few working days.
+5. Check [Stage 1 reliability](https://github.com/Aman-zishan/panda/milestone/5) over a few working days.
 
 ## Later hardware stages
 
 - Presence radar and hardware microphone mute switch (Stage 2).
 - Servo, head, collar, visor LED, PETG shell, carrier board and final power design
   (Stage 3).
+- Once presence sensing and head movement work together, run the [three-week usefulness trial](https://github.com/Aman-zishan/panda/milestone/7). Log voice capture, knob use and the tiny world each workday.
 - A custom PCB. Build one only after the validation tests establish the final pin map,
   selected modules, power behaviour and enclosure layout.

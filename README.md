@@ -2,9 +2,9 @@
 
 ![PANDA enclosure render showing front, three-quarter, right, top and back views](docs/assets/panda-banner.png)
 
-PANDA (Presence-Aware Non-verbal Desk Assistant) is a desk companion for focus sessions,
-quick voice captures and gentle break reminders. A knob, a small display and brief
-sound cues let you interact without reaching for your phone.
+PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that helps
+you focus, capture thoughts and take breaks through simple physical interactions,
+without pulling you away from your work.
 
 **Status:** Stage 1 breadboard planning, awaiting hardware. This repository contains
 the website, requirements and build plans. Basic firmware and hardware build files

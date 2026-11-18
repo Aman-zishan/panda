@@ -28,7 +28,7 @@ proposed reminders to PANDA after approval. Define supported platforms and conse
 
 ## Connectivity and outages
 
-- Hosted interpretation, new captures and sync require internet and service availability.
+- Hosted interpretation, new connected captures and sync require internet and service availability.
 - Show failed saves. Reconnection must preserve cancellations and prevent duplicates.
 - Local controls, focus, world state and supported local voice commands remain available
   during outages and after service expiry. Presence, head movement and mute belong to both editions.

@@ -11,7 +11,7 @@ and Connect; connected reminders require Connect or a community integration.
 | --- | --- | --- | --- |
 | Idle | Choose focus duration; show minutes briefly | Start focus with the selected duration | Start voice input |
 | Focusing | Adjust speaker volume; show level briefly | Pause focus | Start voice input; timer continues |
-| Focus paused | Adjust remaining time; turn down to zero to end the session | Resume, or end if zero is selected | Start voice input; timer stays paused |
+| Focus paused | Adjust remaining time; turn down to zero to show “End focus?” | Resume, or end if zero is selected | Start voice input; timer stays paused |
 | Showing a nudge or focus-complete signal | Snooze it using the saved snooze duration | Acknowledge and clear it | Start voice input without acknowledging it |
 | Listening | Cancel capture | Cancel capture | No additional action |
 | Processing voice | No action | Cancel the pending request | No additional action |

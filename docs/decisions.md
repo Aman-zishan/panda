@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 2026-11-17 | Voice capture | Approved [save, confirmation and cancellation rules](voice-capture.md) for Connect. |
 | 2026-11-17 | Release scope | Approved the [Basic public build](basic-release.md) and [Connect release sequence](connect-release.md). |
-| 2026-11-17 | Audio distribution | Builders supply audio. Public releases exclude recordings and private audio-processing tools. See [prototype source and terms](basic-release.md). |
+| 2026-11-17 | Audio distribution | Eight cue meanings and distinct tunes approved in [#7](https://github.com/Aman-zishan/panda/issues/7). Builders supply audio. Public releases exclude recordings and private audio-processing tools. See [prototype source and terms](basic-release.md). |
 | 2026-11-17 | Device behaviour | Approved [knob controls](knob-interactions.md), [focus sessions](focus-experience.md) and [tiny-world growth and recovery](tiny-world.md). |
 | 2026-11-17 | Release licences | Basic software: GPL-3.0-only. Hardware designs: CERN-OHL-S-2.0. Documentation: CC-BY-SA-4.0. Connect remains proprietary; branding and asset exceptions are listed in [LICENSE.md](../LICENSE.md). |
 | 2026-11-17 | Name and logo | Accurate “Built with PANDA” and “Compatible with PANDA” descriptions are allowed. Modified products use their own branding; official status and product use of the logo require permission. See [BRAND.md](../BRAND.md). |
@@ -48,5 +48,5 @@ without pulling you away from your work.
 - Confirm production speech/model providers after prototype measurements.
 - Select hosted Connect infrastructure; GCP is a candidate.
 - Device/backend message format.
-- GPIO assignments after inspecting the hardware.
+- GPIO assignments during breadboard assembly, after inspecting module pin labels.
 - Enclosure dimensions after measuring the parts.

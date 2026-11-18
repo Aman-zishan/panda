@@ -15,8 +15,8 @@ Keep the device silent during meetings and respect physical microphone mute.
 Exclude scrolling dashboards, feeds, chat screens, keyboards, touch interfaces and
 long spoken replies. Calendar, notes and task management stay on the phone or desktop.
 
-The tiny world can wilt when focus or breaks slip, but it never dies or asks for
-care. It recovers within one day. See the [tiny-world rules](tiny-world.md).
+Stage 1 preserves growth when focus ends early. With presence sensing, deferring a
+break nudge may briefly droop a plant. It recovers within one day, even without action. See the [tiny-world rules](tiny-world.md).
 
 ## Feature review
 

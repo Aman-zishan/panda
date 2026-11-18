@@ -21,6 +21,7 @@ including broken Markdown links. For live documentation previews, run
 
 ## Publishing
 
-Pull requests build both parts of the site. Pushes to `main` also deploy to GitHub Pages.
+Pull requests that change site sources or build configuration build both the homepage and docs.
+Matching pushes to `main` also deploy to GitHub Pages. Changes to `LICENSE.md` or `BRAND.md` trigger deployment on `main` as well.
 Check the workflow run before reporting a change live. Documentation is served at
 `/panda/docs/`, and the old `docs.html` address redirects there.

@@ -23,14 +23,14 @@ Local voice commands await validation. For release timing and readiness, see
 | Physical microphone mute | ✓ | ✓ |
 | Local features without internet | ✓ | ✓ |
 | **Voice & reminders** | | |
-| Wake word and press-to-talk | ✓ | ✓ |
+| Wake word and long-press activation | ✓ | ✓ |
 | Limited local voice commands | ✓ | ✓ |
 | Flexible natural-language understanding | — | ✓ |
 | Voice notes and to-dos | — | ✓ |
 | One-time reminders | — | ✓ |
 | Recurring and conditional reminders | — | ✓ |
 | Reminder snooze and acknowledgement | — | ✓ |
-| Calendar integration and meeting quiet mode | — | ✓ |
+| Calendar integration and automatic meeting quiet mode (later) | — | ✓ |
 | **Companion app** | | |
 | Desktop app | Community | Maintained by creator |
 | Setup, controls and device status | ✓ | ✓ |
@@ -39,7 +39,7 @@ Local voice commands await validation. For release timing and readiness, see
 | Reminder and schedule management | — | ✓ |
 | Desktop alerts for unacknowledged nudges | — | ✓ |
 | Advanced connected behaviours | — | ✓ |
-| **Meeting assistant** | | |
+| **Meeting assistant (later)** | | |
 | Join meetings when invited or enabled | — | ✓ |
 | Meeting transcripts | — | ✓ |
 | Suggested reminders from meetings | — | ✓ |
@@ -47,7 +47,7 @@ Local voice commands await validation. For release timing and readiness, see
 | **Services & customization** | | |
 | Hosted speech and AI processing | — | ✓ |
 | Managed storage and updates | — | ✓ |
-| Open-source community app and firmware | ✓ | — |
+| Open-source device firmware | ✓ | ✓ |
 | Hardware build files | ✓ | ✓ |
 | Documented audio and device interfaces | ✓ | ✓ |
 | Community integration examples | ✓ | ✓ |

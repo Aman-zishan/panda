@@ -7,13 +7,13 @@ Connect. A full session works on PANDA alone, without internet or the companion 
 
 | Moment | What the person does | What PANDA does |
 | --- | --- | --- |
-| Start | Press once for 25 minutes, or turn to choose a duration and press | Begin immediately; the creature settles into focus. |
+| Start | Press once for the saved duration (initially 25 minutes), or turn to choose a duration and press | Begin immediately; the creature settles into focus. |
 | Follow progress | Glance when useful | Show remaining minutes and a simple progress indicator. No ticking, flashing or second-by-second animation. |
 | Pause | Press once | Freeze the remaining time and show a resting pose with a pause indicator. |
 | Resume | Press again | Continue from the remaining time, without a new session or extra reward. |
 | End early | While paused, turn down to zero and press to confirm | Return to idle. No failure cue, lost growth or guilt. |
 | Finish | No action required | End the timer, grow the world once and give one brief completion cue. Then show a resting scene with a small completion mark. |
-| Clear or postpone the completion prompt | Press to acknowledge, or turn to snooze | Clear the mark, or show the prompt again after five minutes. A snooze does not extend or restart focus. |
+| Clear or postpone the completion prompt | Press to acknowledge, or turn to snooze | Clear the mark, or show the prompt again after the saved snooze interval (initially five minutes). A snooze does not extend or restart focus. |
 | Start another session | After clearing the prompt, press from idle | Start only when asked. Never automatically begin another focus session. |
 
 Set the duration in five-minute steps from 5 to 120 minutes. Turning during focus

@@ -11,10 +11,11 @@ hardware results only after bench testing.
 - [x] Review [Basic](basic-release.md) and [Connect](connect-release.md) release scope.
 - [x] Review [knob controls](knob-interactions.md) and the [eight sound cues](https://github.com/Aman-zishan/panda/issues/7). Physical knob and speaker checks remain pending.
 - [ ] Specify Basic’s local focus, timer and volume phrases for hardware validation.
-- [ ] Define when connected reminders nudge, repeat and stop, including spoken snooze and acknowledgement. [#12](https://github.com/Aman-zishan/panda/issues/12)
-- [ ] Specify device feedback and companion-app responsibilities. [#13](https://github.com/Aman-zishan/panda/issues/13)
-- [ ] Document listening, transmission, storage and physical mute. [#14](https://github.com/Aman-zishan/panda/issues/14)
-- [ ] List which Connect services and materials stay private when Basic ships. [#15](https://github.com/Aman-zishan/panda/issues/15)
+- [ ] Define spoken snooze and acknowledgement phrases for connected reminders.
+- [x] Define when [connected reminders](connect-release.md#reminder-behaviour) nudge, repeat and stop. [#12](https://github.com/Aman-zishan/panda/issues/12)
+- [x] Specify [device feedback and companion-app responsibilities](product-philosophy.md#device-and-app). [#13](https://github.com/Aman-zishan/panda/issues/13)
+- [x] Document [listening, transmission, transcript-only history and physical mute](voice-capture.md#voice-capture-privacy). [#14](https://github.com/Aman-zishan/panda/issues/14)
+- [x] Define the [public and private release boundary](basic-release.md#public-and-private-release-boundary). [#15](https://github.com/Aman-zishan/panda/issues/15)
 - [ ] List every user-visible device state: idle, listening, recording, processing, awaiting confirmation,
       saved, save unconfirmed, focus running, paused, complete, reminder, muted, offline and error.
 - [ ] Decide what the LED, sound and OLED confirmation do for each state.

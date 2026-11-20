@@ -17,6 +17,20 @@ Press to confirm a visible reminder, turn to discard, or long-press to replace i
 Cancelled or expired proposals schedule nothing. If the full schedule takes more
 than a glance, review it in the app before activation. See [knob controls](knob-interactions.md).
 
+## Voice capture privacy
+
+While the microphone is enabled, PANDA checks for the wake word on the device.
+Basic processes its supported commands locally. For a Connect capture, the listening
+cue signals when to speak. Only speech captured after activation goes to the
+connected speech service for transcription.
+
+Connect stores the transcript and saved item in its managed storage for review in
+the companion app. Raw audio is temporary: discard it after transcription, or when
+a capture fails or is cancelled. Capture history offers text only.
+
+The Stage 2 physical mute switch disables microphone input, including wake-word
+detection and knob-initiated capture. The knob and local timer keep working.
+
 ## Listening and clarification
 
 - Use the wake word or long-press and release. Speak after the ready cue. Display and light must distinguish listening, processing and saved, even without sound files. PANDA never speaks replies.
@@ -41,6 +55,6 @@ than a glance, review it in the app before activation. See [knob controls](knob-
 Return to the underlying focus/world state after feedback. No repeated failure
 alerts, scrolling transcripts or notification feed on the device.
 
-Recognition and feedback still require prototype validation. Detailed schedule rules belong to
-[#12](https://github.com/Aman-zishan/panda/issues/12); recording retention and privacy
-belong to [#14](https://github.com/Aman-zishan/panda/issues/14).
+Recognition and feedback still require prototype validation. See
+[reminder behaviour](connect-release.md#reminder-behaviour) and
+[privacy requirements (#14)](https://github.com/Aman-zishan/panda/issues/14).

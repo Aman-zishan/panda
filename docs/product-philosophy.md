@@ -11,6 +11,11 @@ an action faster, calmer or easier to understand.
 | Start or pause focus, snooze or acknowledge with one knob action. Show the current state in the tiny world. | Handle multi-step choices, history, search, accounts and settings. |
 | With presence hardware, notice arrivals and departures. Give a timely nudge, then return to quiet. | Set up, troubleshoot and configure the device. |
 
+For Connect captures, the knob can cancel a pending request or confirm a proposed
+reminder. Once an item is saved, PANDA briefly confirms it and returns to the
+previous activity. Edit or delete saved notes, to-dos and reminders only in the
+companion app. See [voice capture outcomes](voice-capture.md).
+
 Keep the device silent during meetings and respect physical microphone mute.
 Exclude scrolling dashboards, feeds, chat screens, keyboards, touch interfaces and
 long spoken replies. Calendar, notes and task management stay on the phone or desktop.

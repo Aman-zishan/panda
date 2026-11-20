@@ -20,6 +20,21 @@ Transcripts, lists, editing and settings live in the app.
 Requests are limited to the supported tasks. Exclude unrestricted automation,
 on-device chat, feeds, productivity scores and long spoken replies.
 
+## Reminder behaviour
+
+When a reminder comes due, briefly show its action and give one short cue if quiet
+settings permit. During focus, keep the timer running. The knob acts on the reminder
+while its prompt is visible, then resumes its usual controls.
+
+| Response | What happens to this occurrence |
+| --- | --- |
+| Short press | Acknowledge the nudge, clear the prompt and cancel pending desktop follow-up. The underlying task stays as it was. |
+| Turn | Snooze for the saved interval (initially five minutes). Clear the prompt and cancel pending desktop follow-up. When the interval ends, nudge once more. |
+| No response | Return to the timer or idle display. The device stays silent for this occurrence. If the user enabled desktop follow-up for this reminder, send at most one notification after their chosen delay, respecting quiet periods. |
+
+Future occurrences of a recurring reminder follow their schedule. For example, ignoring
+the 2 pm water reminder leaves the 3 pm reminder in place.
+
 ## Later releases
 
 Calendar integration and automatic meeting quiet mode come later. An optional
@@ -41,6 +56,8 @@ proposed reminders to PANDA after approval. Define supported platforms and conse
   supported build, with measured response times and clear failures.
 - Schedule timezones, conditions, missed reminders, reconnection and duplicate
   prevention have agreed behaviour and have been checked.
+- Verify speech-provider retention settings and actual audio disposal, including failed
+  and cancelled captures, before promising [transcript-only history](voice-capture.md#voice-capture-privacy).
 - Privacy controls, data retention, deletion and account cancellation are documented;
   microphone mute is respected throughout capture.
 - Pricing, usage limits, supported desktop platforms and required connections are

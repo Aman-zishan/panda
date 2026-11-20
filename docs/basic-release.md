@@ -18,8 +18,6 @@ subscription, cloud API key, internet connection or running desktop app.
 | Build materials | Obtain source, parts list, verified wiring, enclosure files and instructions to reproduce the supported build. A custom PCB is not required. |
 | Extension interfaces | Access documented device events, controls and audio interfaces, with a working community integration example. |
 
-External microphone services are optional community extensions.
-
 ## Audio files
 
 Builders supply audio clips under the source's terms. The prototype uses
@@ -34,13 +32,17 @@ Label breadboard previews with tested parts and features. Candidates include the
 timer, knob, display, local voice and saved world state. Presence, hardware mute,
 head movement and the enclosure belong to later Basic hardware stages.
 
-## Connected features
+## Public and private release boundary
 
-The [feature matrix](feature-matrix.md) lists Connect services, including flexible
-voice requests, notes, tasks, scheduling, calendar, meetings, desktop escalation and
-hosted AI and storage. Community integrations may offer alternatives. A complete
-self-hosted Connect service is outside Basic scope. Keep lists, feeds and
-productivity scores off the device.
+Publish the Basic firmware, community desktop app, hardware build files, documented
+audio and device interfaces, and a working integration example. Builders can use
+these interfaces to connect their own speech service. Basic must build and run
+independently of Connect.
+
+Keep the paid Connect app source, hosted backend and maintained integration code
+in private repositories. Public docs may describe how Connect behaves. A bundled
+self-hosted Connect service is outside Basic scope. See the [feature matrix](feature-matrix.md)
+for the planned services and the [licences](../LICENSE.md) for reuse terms.
 
 ## Ready to release when
 

@@ -6,7 +6,7 @@ PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that h
 you focus, capture thoughts and take breaks through simple physical interactions,
 without pulling you away from your work.
 
-**Status:** Stage 1 breadboard planning, awaiting hardware. This repository contains
+**Status:** M2 requirements complete. The breadboard has arrived and Stage 1 bench preparation is underway. This repository contains
 the website, requirements and build plans. Basic firmware and hardware build files
 will follow validation.
 

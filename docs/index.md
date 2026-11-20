@@ -1,6 +1,6 @@
 # PANDA documentation
 
-Stage 1 is in planning. Start with the [pre-hardware checklist](pre-hardware-checklist.md)
+M2 requirements are complete. Stage 1 bench preparation is underway. Start with the [pre-hardware checklist](pre-hardware-checklist.md)
 for parts, assembly order and acceptance tests.
 
 | Topic | Reference |

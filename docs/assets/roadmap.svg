@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="290" viewBox="0 0 1030 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="402" viewBox="0 0 1030 402" role="img" aria-labelledby="title desc">
   <title id="title">PANDA build roadmap</title>
-  <desc id="desc">Five stages from breadboard pairing through capture, the three-week bench trial, enclosure testing and publication.</desc>
+  <desc id="desc">Firmware and Connect milestones from first drivers and app pairing to public firmware and app builds.</desc>
   <style>
     text { font-family: system-ui, sans-serif; text-anchor: middle; }
     .stage { font-size: 24px; font-weight: 650; fill: #233b34; }
     .number { font-size: 21px; font-weight: 700; }
-    .caption { font-size: 18px; fill: #344940; }
+    .lane { font-size: 14px; font-weight: 700; fill: #41574d; }
+    .caption { font-size: 17px; fill: #344940; }
   </style>
-  <rect width="1030" height="290" rx="14" fill="#faf9f5"/>
+  <rect width="1030" height="402" rx="14" fill="#faf9f5"/>
   <!-- M3: Pairing -->
   <g transform="translate(22 0)">
     <text class="stage" x="94" y="46">Pairing</text>
@@ -17,7 +18,11 @@
     <circle cx="94" cy="119" r="25" fill="#fff" opacity=".23"/>
     <g transform="translate(94 119)" fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="-16" y="-12" width="32" height="24" rx="4"/> <path d="M-10 -18v6m10 -6v6m10 -6v6m-20 24v6m10 -6v6m10 -6v6"/></g>
     <text class="number" x="94" y="167" fill="#ffffff">M3</text>
-    <text class="caption" x="94" y="229">Wire the modules<tspan x="94" dy="24">and pair Connect.</tspan></text>
+    <text class="lane" x="94" y="232">Firmware</text>
+    <text class="caption" x="94" y="258">Drivers, timer<tspan x="94" dy="21">and local display</tspan></text>
+    <path d="M12 298h164" stroke="#d6dbd2"/>
+    <text class="lane" x="94" y="325">Connect</text>
+    <text class="caption" x="94" y="351">Pairing screen<tspan x="94" dy="21">and device status</tspan></text>
   </g>
   <!-- M4: Capture -->
   <g transform="translate(214 0)">
@@ -28,7 +33,11 @@
     <circle cx="94" cy="119" r="25" fill="#fff" opacity=".23"/>
     <g transform="translate(94 119)" fill="none" stroke="#253d33" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="-6" y="-18" width="12" height="23" rx="6"/> <path d="M-12 -1a12 12 0 0 0 24 0M0 11v7m-7 0H7"/></g>
     <text class="number" x="94" y="167" fill="#253d33">M4</text>
-    <text class="caption" x="94" y="229">Speak a reminder.<tspan x="94" dy="24">Confirm and snooze.</tspan></text>
+    <text class="lane" x="94" y="232">Firmware</text>
+    <text class="caption" x="94" y="258">Voice input and<tspan x="94" dy="21">knob responses</tspan></text>
+    <path d="M12 298h164" stroke="#d6dbd2"/>
+    <text class="lane" x="94" y="325">Connect</text>
+    <text class="caption" x="94" y="351">Transcription, edits<tspan x="94" dy="21">and scheduling</tspan></text>
   </g>
   <!-- M5: Bench trial -->
   <g transform="translate(406 0)">
@@ -39,7 +48,11 @@
     <circle cx="94" cy="119" r="25" fill="#fff" opacity=".23"/>
     <g transform="translate(94 119)" fill="none" stroke="#253d33" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M-17 0h8l4 -12 8 24 5 -12h9"/></g>
     <text class="number" x="94" y="167" fill="#253d33">M5</text>
-    <text class="caption" x="94" y="229">Test the full setup<tspan x="94" dy="24">for three weeks.</tspan></text>
+    <text class="lane" x="94" y="232">Firmware</text>
+    <text class="caption" x="94" y="258">Presence, mute<tspan x="94" dy="21">and head motion</tspan></text>
+    <path d="M12 298h164" stroke="#d6dbd2"/>
+    <text class="lane" x="94" y="325">Connect</text>
+    <text class="caption" x="94" y="351">Conditions, calendar<tspan x="94" dy="21">and meeting flows</tspan></text>
   </g>
   <!-- M6: Enclosure -->
   <g transform="translate(598 0)">
@@ -50,7 +63,11 @@
     <circle cx="94" cy="119" r="25" fill="#fff" opacity=".23"/>
     <g transform="translate(94 119)" fill="none" stroke="#253d33" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m0 -17 17 9v17L0 18l-17 -9V-8Zm-17 9L0 1l17 -9M0 1v17"/></g>
     <text class="number" x="94" y="167" fill="#253d33">M6</text>
-    <text class="caption" x="94" y="229">Fit the electronics.<tspan x="94" dy="24">Retest in the body.</tspan></text>
+    <text class="lane" x="94" y="232">Firmware</text>
+    <text class="caption" x="94" y="258">Fit, calibrate<tspan x="94" dy="21">and retest</tspan></text>
+    <path d="M12 298h164" stroke="#d6dbd2"/>
+    <text class="lane" x="94" y="325">Connect</text>
+    <text class="caption" x="94" y="351">Retest app flows<tspan x="94" dy="21">on the final device</tspan></text>
   </g>
   <!-- M7: Release -->
   <g transform="translate(790 0)">
@@ -60,6 +77,10 @@
     <circle cx="82" cy="119" r="25" fill="#fff" opacity=".23"/>
     <g transform="translate(82 119)" fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M0 7v-23m-8 8 8 -8 8 8m-23 13v10h30V5"/></g>
     <text class="number" x="82" y="167" fill="#ffffff">M7</text>
-    <text class="caption" x="94" y="229">Publish the build<tspan x="94" dy="24">files and instructions.</tspan></text>
+    <text class="lane" x="94" y="232">Firmware</text>
+    <text class="caption" x="94" y="258">Firmware build<tspan x="94" dy="21">and wiring files</tspan></text>
+    <path d="M12 298h164" stroke="#d6dbd2"/>
+    <text class="lane" x="94" y="325">Connect</text>
+    <text class="caption" x="94" y="351">App, backend<tspan x="94" dy="21">and setup guide</tspan></text>
   </g>
 </svg>

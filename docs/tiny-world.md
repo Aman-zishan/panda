@@ -1,7 +1,6 @@
 # Tiny-world rules
 
-Approved 2026-11-17 · [#8](https://github.com/Aman-zishan/panda/issues/8). Included in Basic and
-Connect, with local state saved across restarts.
+Approved 2026-11-17 · [#8](https://github.com/Aman-zishan/panda/issues/8). World state is saved locally across restarts.
 
 A creature and its landscape reflect focus and rest. No feeding, scores, streaks or daily chores.
 

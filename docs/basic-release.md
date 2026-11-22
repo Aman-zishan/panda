@@ -1,10 +1,10 @@
-# PANDA Basic release scope
+# PANDA device release scope
 
-Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). Basic is the standalone public build.
+Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). PANDA handles local controls on the device.
 
 ## Standalone features
 
-After setup, Basic needs only USB power. Local features work without an account,
+After setup, PANDA needs only USB power. Local features work without an account,
 subscription, cloud API key, internet connection or running desktop app.
 
 | Included in the eventual public build | What the person can do |
@@ -32,13 +32,13 @@ Label breadboard previews with tested parts and features. Candidates include the
 timer, knob, display, local voice and saved world state. Presence, hardware mute,
 head movement and the enclosure follow initial bring-up. Validate sensors and movement on the bench before packaging.
 
-## Open-source release scope
+## Source-available release scope
 
 Publish the firmware, hardware build files, PANDA Connect companion app, backend,
 integrations and documented device and audio interfaces with a working example.
 Builders can connect their own services. Local device features work offline after setup.
 Credentials, user records and third-party assets require separate handling.
-See [licences](../LICENSE.md) for terms applying to released materials.
+The [PANDA Community Licence](../LICENSE.md) permits personal builds and free sharing. Sales of covered devices, kits or copies require separate written permission. Check individual notices for third-party materials and assets.
 
 ## Ready to release when
 

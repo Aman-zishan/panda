@@ -1,6 +1,6 @@
 # PANDA Connect release scope
 
-PANDA Connect is the open-source desktop companion for the [standalone device](basic-release.md). Build and test pairing, capture, reminders and integrations alongside the breadboard. See the [build milestones](pre-hardware-checklist.md#breadboard-to-final-build). PANDA gives brief physical feedback.
+PANDA Connect is the source-available desktop companion for the [standalone device](basic-release.md). Build and test pairing, capture, reminders and integrations alongside the breadboard. See the [build milestones](pre-hardware-checklist.md#breadboard-to-final-build). PANDA gives brief physical feedback.
 Transcripts, lists, editing and settings live in the app.
 
 ## First release
@@ -45,7 +45,7 @@ proposed reminders to PANDA after approval. Define supported platforms and conse
 - Hosted interpretation, new connected captures and sync require internet and service availability.
 - Show failed saves. Reconnection must preserve cancellations and prevent duplicates.
 - Local controls, focus, world state and supported local voice commands remain available
-  during outages and after service expiry. Presence, head movement and mute belong to both editions.
+  during outages and after service expiry. Presence, head movement and mute belong to the device.
 - Offline reminder delivery is unresolved. Before release, document in the app which
   saved reminders run locally, how missed reminders work and when the desktop app must run.
 
@@ -60,6 +60,6 @@ proposed reminders to PANDA after approval. Define supported platforms and conse
 - Privacy controls, data retention, deletion and account cancellation are documented;
   microphone mute is respected throughout capture.
 - Pricing, usage limits, supported desktop platforms and required connections are
-  published. Account expiry does not disable Basic's local device functions.
+  published. Account expiry does not disable local device functions.
 
 Release dates and remaining service policies are open.

@@ -1,13 +1,12 @@
 # PANDA feature comparison
 
-**Basic:** standalone device features and local setup.
-**Connect:** companion app with connected services and integrations. Both columns describe the same open-source project.
+PANDA is the device. PANDA Connect is its companion app. The columns show what works locally (including local app setup) and what is available when connected services are enabled.
 
-✓ Included in planned scope · — Not bundled. Hardware features require their components.
+✓ Included in planned scope · — Requires connected services. Hardware features require their components.
 Local voice commands await validation. For release timing and readiness, see
-[Basic](basic-release.md) and [Connect](connect-release.md).
+[PANDA device](basic-release.md) and [Connect](connect-release.md).
 
-| Features | Basic | Connect |
+| Features | Local use | With connected services |
 | --- | :---: | :---: |
 | **Device & focus** | | |
 | Knob controls | ✓ | ✓ |

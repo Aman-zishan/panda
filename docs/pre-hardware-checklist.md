@@ -42,7 +42,7 @@ The breadboard has arrived. All five [M2 requirements tickets](https://github.co
 
 ### Voice phrases and device feedback
 
-- [ ] Specify Basic’s local focus, timer and volume phrases for hardware validation.
+- [ ] Specify PANDA’s local focus, timer and volume phrases for hardware validation.
 - [ ] Define spoken snooze and acknowledgement phrases for connected reminders.
 - [ ] List every user-visible device state: idle, listening, recording, processing, awaiting confirmation,
       saved, save unconfirmed, focus running, paused, complete, reminder, muted, offline and error.
@@ -80,12 +80,12 @@ Publish the Connect backend and integrations. Keep credentials and user records 
 - [x] Record prototype stack and wake-word choices in the [decision log](decisions.md).
 - [x] Review [voice capture](voice-capture.md), [focus sessions](focus-experience.md)
       and [tiny-world behaviour](tiny-world.md).
-- [x] Review [Basic](basic-release.md) and [Connect](connect-release.md) release scope.
+- [x] Review [PANDA device](basic-release.md) and [Connect](connect-release.md) release scope.
 - [x] Review [knob controls](knob-interactions.md) and the [eight sound cues](https://github.com/Aman-zishan/panda/issues/7). Physical knob and speaker checks remain pending.
 - [x] Define when [connected reminders](connect-release.md#reminder-behaviour) nudge, repeat and stop. [#12](https://github.com/Aman-zishan/panda/issues/12)
 - [x] Specify [device feedback and companion-app responsibilities](product-philosophy.md#device-and-app). [#13](https://github.com/Aman-zishan/panda/issues/13)
 - [x] Document [listening, transmission, transcript-only history and physical mute](voice-capture.md#voice-capture-privacy). [#14](https://github.com/Aman-zishan/panda/issues/14)
-- [x] Define the [open-source release scope](basic-release.md#open-source-release-scope). [#15](https://github.com/Aman-zishan/panda/issues/15)
+- [x] Define the [source-available release scope](basic-release.md#source-available-release-scope). [#15](https://github.com/Aman-zishan/panda/issues/15)
 - [x] Publish the project README and decision log.
 
 ## Breadboard to final build

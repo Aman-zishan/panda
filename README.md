@@ -13,8 +13,8 @@ the website, requirements and build plans. Build PANDA Connect alongside the dev
 
 ## Device and companion app
 
-- **Basic** runs locally and includes device firmware, hardware build files and local controls.
-- **Connect** is the open-source companion app for setup, voice capture and scheduled reminders.
+- **PANDA** runs locally and includes device firmware, hardware build files and local controls.
+- **Connect** is the source-available companion app for setup, voice capture and scheduled reminders.
 
 See the [feature comparison](docs/feature-matrix.md) for planned capabilities and the
 [pre-hardware checklist](docs/pre-hardware-checklist.md) for current build work.
@@ -24,7 +24,14 @@ See the [feature comparison](docs/feature-matrix.md) for planned capabilities an
 - [Enclosure concept sketches (PDF)](docs/PANDA_enclosure_concept_sketches.pdf)
 - [Original concept (PDF)](docs/PANDA_desk_companion_concept_v1.pdf) — historical proposal. Later choices are recorded in the [decision log](docs/decisions.md).
 
-## Contributing and licences
+## Contributing
 
 See [Contributing](CONTRIBUTING.md) to edit and preview the site, or browse the
-[documentation index](docs/index.md). PANDA software uses GPL-3.0-only, hardware designs use CERN-OHL-S-2.0, and documentation uses CC-BY-SA-4.0. All three permit commercial use under their terms. See [LICENSE.md](LICENSE.md) for scope and asset exceptions, and the [brand policy](BRAND.md) for use of the PANDA name and logo.
+[documentation index](docs/index.md).
+
+## Licence
+
+You can fork PANDA, modify it, build one for yourself and share builds for free.
+Selling devices, kits or copies made using materials under the PANDA Community
+Licence requires separate written permission. See [LICENSE.md](LICENSE.md) for
+the terms, earlier releases and asset exceptions.

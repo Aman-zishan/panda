@@ -1,7 +1,7 @@
 # Voice capture outcomes
 
 Approved 2026-11-17 · [#11](https://github.com/Aman-zishan/panda/issues/11). English first.
-Basic handles its documented local commands; the captures below belong to Connect.
+PANDA handles its documented local commands; the captures below belong to Connect.
 Community integrations may provide their own alternatives.
 
 ## What gets saved
@@ -20,7 +20,7 @@ than a glance, review it in the app before activation. See [knob controls](knob-
 ## Voice capture privacy
 
 While the microphone is enabled, PANDA checks for the wake word on the device.
-Basic processes its supported commands locally. For a Connect capture, the listening
+PANDA processes its supported commands locally. For a Connect capture, the listening
 cue signals when to speak. Only speech captured after activation goes to the
 connected speech service for transcription.
 
@@ -36,7 +36,7 @@ detection and knob-initiated capture. The knob and local timer keep working.
 - Use the wake word or long-press and release. Speak after the ready cue. Display and light must distinguish listening, processing and saved, even without sound files. PANDA never speaks replies.
 - For an unclear request, display one brief question such as “What time?” and wait for an explicit reply. End without saving if none arrives. Never guess dates or create tasks from uncertain transcripts.
 - In the first release, ask the user to split unrelated actions into separate requests.
-- Basic explains unsupported requests locally. Supported local commands, including focus, remain available. Exact phrases need hardware validation.
+- PANDA explains unsupported requests locally. Supported local commands, including focus, remain available. Exact phrases need hardware validation.
 
 ## Correction, cancellation and failure
 

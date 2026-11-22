@@ -1,35 +1,42 @@
-# PANDA licences
+# PANDA Community Licence 1.0
 
 Copyright © 2026 Aman Zishan and contributors.
 
-PANDA uses different licences for software, hardware and documentation. These
-are separate scopes, not a choice of licences for the same material.
+## What you can do
 
-| Material | Licence |
-| --- | --- |
-| PANDA firmware, Connect companion app, backend, integrations and example code, when added | [GNU GPL version 3 only](LICENSES/GPL-3.0-only.txt) (`GPL-3.0-only`) |
-| Website code and styles in `site/`, and project scripts/workflows | [GNU GPL version 3 only](LICENSES/GPL-3.0-only.txt) |
-| Released PANDA schematics, PCB layouts and enclosure CAD/build files, when added | [CERN Open Hardware Licence v2 — Strongly Reciprocal](LICENSES/CERN-OHL-S-2.0.txt) (`CERN-OHL-S-2.0`) |
-| README, written documentation in `docs/`, and website prose | [Creative Commons Attribution-ShareAlike 4.0](LICENSES/CC-BY-SA-4.0.txt) (`CC-BY-SA-4.0`) |
+For the PANDA materials covered below, each rights holder grants you a worldwide,
+royalty-free licence to read, copy, fork, modify and run the materials, build
+devices for your own use, and share original or modified copies and builds free
+of charge. This includes internal use at an organization. When sharing, include
+this licence, keep copyright and attribution notices, and identify your changes.
 
-For documentation attribution, credit “Aman Zishan and PANDA contributors” and
-link to [the PANDA project](https://github.com/Aman-zishan/panda). Retain applicable
-notices and identify changes as required by the licence.
+## When you need permission
 
-## Exceptions
+To the extent permission from a rights holder is required, selling or offering
+for sale devices or kits made using the covered materials, or selling copies of
+the covered materials themselves, requires a separate written licence. This
+applies to modified versions and to sales under another brand. You can request
+terms through the [project issue tracker](https://github.com/Aman-zishan/panda/issues).
+Only rights holders or their authorized representatives can grant those terms.
 
-- **Branding:** the PANDA name and logo follow [BRAND.md](BRAND.md). The licences
-  above do not grant trademark rights or imply endorsement.
-- **Artwork and audio:** images in `docs/assets/` and `site/assets/`, embedded
-  illustrations in the concept PDF, and sound recordings are excluded from the
-  blanket licences above. No reuse permission is granted here unless an asset
-  has its own licence notice. The PDF's written content follows the documentation licence.
-- **Third-party material:** dependencies, imported files and assets retain their
-  own licences. Specific third-party notices take precedence over this scope map.
+## What this covers
 
-The full licence texts govern reuse, including commercial use. The brand policy
-does not add restrictions to the software, hardware or documentation licences.
-Licence texts in `LICENSES/` retain their own notices.
+This licence applies to original PANDA firmware, Connect app and backend,
+integrations, examples, hardware and enclosure design files, project scripts,
+website code and written documentation released under this policy. Each licensor
+grants only rights they control. Statutory exceptions and rights you already
+have independently of this licence continue to apply.
 
-Standard texts are reproduced from the
-[SPDX licence list](https://github.com/spdx/license-list-data/tree/main/text).
+- **Earlier releases.** Material published through commit
+  [f94790b](https://github.com/Aman-zishan/panda/blob/f94790b/LICENSE.md)
+  remains available on the terms granted for those versions, including their
+  commercial permissions. The earlier licence texts are preserved in `LICENSES/`.
+- **Third-party and separately licensed material.** Follow its own notices.
+  Contributions requiring another rights holder's consent to relicense retain
+  their existing terms unless that consent is obtained.
+- **Artwork, recordings and branding.** Images in `docs/assets/` and `site/assets/`,
+  illustrations in the concept documents, and recordings require their own reuse
+  permission. The PANDA name and logo follow the [brand policy](BRAND.md).
+
+Covered materials are provided as is, without warranty. To the extent permitted
+by law, the licensors are not liable for damages arising from their use.

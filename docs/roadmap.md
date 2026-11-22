@@ -1,21 +1,8 @@
 # Roadmap
 
-PANDA and its Connect companion app are tested together on the breadboard. Enclosure work starts after the integrated prototype passes its three-week trial.
+Product planning (M0–M2) is complete. The build starts with PANDA and Connect together on the breadboard. Enclosure work starts after the integrated prototype passes its three-week trial.
 
-```mermaid
-flowchart TD
-    plan["M0–M2 · Product, device and app requirements"]
-    pair["M3 · Bring up the breadboard and pair Connect"]
-    capture["M4 · Test voice capture and reminders"]
-    bench["M5 · Add presence, mute and motion"]
-    trial{"Three-week trial and all bench checks pass?"}
-    fix["Fix the failed checks on the breadboard"]
-    body["M6 · Fit the enclosure and retest"]
-    release["M7 · Publish the reproducible build"]
-    plan --> pair --> capture --> bench --> trial
-    trial -->|No| fix --> trial
-    trial -->|Yes| body --> release
-```
+![PANDA build stages: M3 pairing, M4 capture, M5 bench trial, M6 enclosure and M7 release.](assets/roadmap.svg)
 
 | Build ticket | Evidence to record |
 | --- | --- |

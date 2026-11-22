@@ -7,16 +7,9 @@ Approved 2026-11-17 · [#10](https://github.com/Aman-zishan/panda/issues/10). PA
 After setup, PANDA needs only USB power. Local features work without an account,
 subscription, cloud API key, internet connection or running desktop app.
 
-| Included in the eventual public build | What the person can do |
-| --- | --- |
-| Firmware and physical controls | Use the knob, display, status light and local feedback without internet. |
-| Focus and tiny world | Start, pause and complete focus; retain world growth across restarts, following the approved experience rules. |
-| Local voice | Activate listening by wake word or long press and use a small documented English command set for focus, timer and volume. Exact phrases and recognition quality require validation. |
-| Presence and breaks | Use presence-aware rest, break nudges and display sleep with the supported sensor. |
-| Physical character and privacy | Use the supported head movement, visor and hardware microphone mute. |
-| Connect companion app | Set up the device, change basic settings, assign builder-supplied sounds, use controls and inspect status locally. |
-| Build materials | Obtain source, parts list, verified wiring, enclosure files and instructions to reproduce the supported build. A custom PCB is not required. |
-| Extension interfaces | Access documented device events, controls and audio interfaces, with a working community integration example. |
+See [local and connected features](feature-matrix.md) for controls, offline focus, tiny-world persistence and local English voice commands. Validate wake-word and long-press activation, command phrases and recognition on hardware.
+
+Later hardware adds presence-aware breaks, display sleep, head movement, visor feedback and physical microphone mute. Publish the parts list, verified wiring, enclosure files and build instructions. A custom PCB is optional.
 
 ## Audio files
 

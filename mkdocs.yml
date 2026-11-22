@@ -41,11 +41,16 @@ nav:
       - Project guide: repository-structure.md
   - Project:
       - Decisions: decisions.md
-      - Roadmap: https://github.com/Aman-zishan/panda/milestones
+      - Roadmap: roadmap.md
 # The docs hook adds uncategorized new Markdown pages under More docs.
 plugins:
   - search
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - tables
   - toc:
       permalink: true

@@ -1,23 +1,13 @@
 # PANDA Connect release scope
 
-PANDA Connect is the source-available desktop companion for the [standalone device](basic-release.md). Build and test pairing, capture, reminders and integrations alongside the breadboard. See the [build milestones](pre-hardware-checklist.md#breadboard-to-final-build). PANDA gives brief physical feedback.
-Transcripts, lists, editing and settings live in the app.
+Connect handles desktop setup, transcripts, editing, search and preferences. PANDA gives immediate feedback on the device.
 
 ## First release
 
-| Included | What the person can do |
-| --- | --- |
-| Natural-language requests | Speak an English request for a supported note, to-do or reminder without memorising a fixed phrase. Unclear requests ask for clarification. |
-| Notes and to-dos | Capture a thought, receive confirmation that it was saved, then review or edit it in the app. |
-| Reminders and schedules | Set one-off or recurring reminders, including requests such as “remind me to drink water every hour.” Confirm the interpreted schedule before saving. |
-| Supported conditions | Use documented conditions such as “while I am at my desk” when the required presence hardware is available. Unsupported conditions are explained rather than guessed. |
-| Physical follow-up | Receive a nudge on PANDA and acknowledge or snooze it with the knob. |
-| Optional desktop escalation | Send one desktop notification for selected nudges left unacknowledged after the chosen delay. Acknowledgement or snooze stops escalation; quiet periods are respected. |
-| Maintained companion app | Set up the device, view transcripts, search saved items, edit schedules and manage preferences. |
-| Managed services | Use hosted speech, AI and storage without configuring separate provider accounts or API keys. Receive supported app updates. |
-
-Requests are limited to the supported tasks. Exclude unrestricted automation,
-on-device chat, feeds, productivity scores and long spoken replies.
+- Capture English notes and to-dos using [voice capture and confirmation](voice-capture.md). Ask for clarification when a request is unclear.
+- Confirm one-off and recurring schedules before saving. Explain unsupported conditions. At-desk conditions require presence hardware.
+- Provide hosted speech, interpretation, storage and supported app updates without separate provider accounts.
+- Limit requests to supported desk tasks. Keep feeds, productivity scores, chat and long spoken replies off the device.
 
 ## Reminder behaviour
 

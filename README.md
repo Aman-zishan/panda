@@ -6,18 +6,11 @@ PANDA (Presence-Aware Non-verbal Desk Assistant) is a calm desk companion that h
 you focus, capture thoughts and take breaks through simple physical interactions,
 without pulling you away from your work.
 
-**Status:** M2 requirements complete. The breadboard has arrived and Stage 1 bench preparation is underway. This repository contains
-the website, requirements and build plans. Build PANDA Connect alongside the device on the breadboard. Final enclosure work follows the complete device-and-app trial.
+**Current work:** Prepare the breadboard and pair PANDA with its desktop companion, PANDA Connect. [Build ticket #16](https://github.com/Aman-zishan/panda/issues/16)
 
-[Website](https://aman-zishan.github.io/panda/) · [Documentation](https://aman-zishan.github.io/panda/docs/) · [Roadmap](https://github.com/Aman-zishan/panda/milestones)
+[Website](https://aman-zishan.github.io/panda/) · [Documentation](https://aman-zishan.github.io/panda/docs/) · [Roadmap](docs/roadmap.md)
 
-## Device and companion app
-
-- **PANDA** runs locally and includes device firmware, hardware build files and local controls.
-- **Connect** is the source-available companion app for setup, voice capture and scheduled reminders.
-
-See the [local and connected features](docs/feature-matrix.md) for planned capabilities and the
-[pre-hardware checklist](docs/pre-hardware-checklist.md) for current build work.
+The device handles focus and physical controls locally. Connect adds setup, voice capture and reminders. See [local and connected features](docs/feature-matrix.md) and the [bench checklist](docs/pre-hardware-checklist.md).
 
 ## Design files
 

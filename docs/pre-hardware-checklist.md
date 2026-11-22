@@ -1,6 +1,6 @@
 # Stage 1 pre-hardware checklist
 
-The breadboard has arrived. All five [M2 requirements tickets](https://github.com/Aman-zishan/panda/milestone/3) are complete. While the remaining parts arrive, check the order and prepare the bench tests. Firmware and backend work can proceed alongside component testing.
+The breadboard has arrived. Check the remaining parts and prepare the tests for [bring-up and pairing (#16)](https://github.com/Aman-zishan/panda/issues/16).
 
 ## Prepare now
 
@@ -68,8 +68,7 @@ Publish the Connect backend and integrations. Keep credentials and user records 
 
 - [ ] Add run instructions when implementation begins.
 - [ ] Extend the existing `.gitignore` to cover local credential files alongside build outputs and editor files.
-- [ ] When implementation begins, organize public firmware, companion app, shared interfaces
-      and tests here alongside the Connect app and backend.
+- [ ] When implementation begins, organize public firmware, Connect app and backend, shared interfaces and tests here.
 - [ ] Add a single, initially blank pin-map file. It becomes the only source of GPIO
       assignments after the breadboard is wired.
 - [ ] Keep hardware access behind a firmware abstraction layer so the non-hardware
@@ -77,24 +76,8 @@ Publish the Connect backend and integrations. Keep credentials and user records 
 
 ## Completed planning
 
-- [x] Record prototype stack and wake-word choices in the [decision log](decisions.md).
-- [x] Review [voice capture](voice-capture.md), [focus sessions](focus-experience.md)
-      and [tiny-world behaviour](tiny-world.md).
-- [x] Review [PANDA device](basic-release.md) and [Connect](connect-release.md) release scope.
-- [x] Review [knob controls](knob-interactions.md) and the [eight sound cues](https://github.com/Aman-zishan/panda/issues/7). Physical knob and speaker checks remain pending.
-- [x] Define when [connected reminders](connect-release.md#reminder-behaviour) nudge, repeat and stop. [#12](https://github.com/Aman-zishan/panda/issues/12)
-- [x] Specify [device feedback and companion-app responsibilities](product-philosophy.md#device-and-app). [#13](https://github.com/Aman-zishan/panda/issues/13)
-- [x] Document [listening, transmission, transcript-only history and physical mute](voice-capture.md#voice-capture-privacy). [#14](https://github.com/Aman-zishan/panda/issues/14)
-- [x] Define the [source-available release scope](basic-release.md#source-available-release-scope). [#15](https://github.com/Aman-zishan/panda/issues/15)
-- [x] Publish the project README and decision log.
+The [decision log](decisions.md) records the prototype stack, device interactions, Connect requirements and release scope. The [eight sound cues](https://github.com/Aman-zishan/panda/issues/7) await speaker validation.
 
 ## Breadboard to final build
 
-| Milestone | What to demonstrate |
-| --- | --- |
-| [M3 · Bring-up](https://github.com/Aman-zishan/panda/milestone/4) | Bring up the modules, run local focus, pair Connect, display device status and disconnect the app while the timer runs. |
-| [M4 · Capture and reminders](https://github.com/Aman-zishan/panda/milestone/5) | Speak a request, confirm on the device, edit in Connect and receive the nudge. Exercise snooze, desktop escalation and reconnect. Record reliability over several working days. |
-| [M5 · Integrated bench](https://github.com/Aman-zishan/panda/milestone/6) | Add radar, physical mute, visor feedback and a servo on a temporary fixture. Check presence, movement, quiet mode, calendar and opt-in meeting flows together with Connect. Log voice capture, knob use and the tiny world each workday during the three-week trial. Record results and resolve failures across the feature matrix. |
-| [M6 · Final form factor](https://github.com/Aman-zishan/panda/milestone/7) | Start after the complete device and companion experience passes on the breadboard. Measure and fit the shell, head, collar, speaker, mic and USB port. Recheck power, movement, acoustics and app behaviour in the assembled body. |
-
-Choose a carrier or custom PCB only if the validated wiring, power and fit call for one.
+Follow the [roadmap](roadmap.md) from pairing to the integrated trial, enclosure and release. Choose a carrier or custom PCB only if validated wiring, power or fit requires one.

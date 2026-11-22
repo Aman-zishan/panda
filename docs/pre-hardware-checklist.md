@@ -8,7 +8,7 @@ The breadboard has arrived. All five [M2 requirements tickets](https://github.co
 
 - [ ] Check the order includes every Stage 1 item: ESP32-S3 DevKit N16R8 with
       headers, INMP441, MAX98357A with headers and terminal, 4-ohm 3-W speaker,
-      0.96-inch I2C OLED, KY-040 encoder, two 830-point breadboards, all jumper-wire
+      0.96-inch I2C OLED, KY-040 encoder, two full-size breadboards, all jumper-wire
       types and a USB-C data cable.
 - [ ] Obtain a small screwdriver, side cutters, wire stripper and, if possible, a
       multimeter.
@@ -50,8 +50,8 @@ The breadboard has arrived. All five [M2 requirements tickets](https://github.co
 
 ### Device and backend interfaces
 
-Publish Basic’s device events, controls and audio interfaces with the public build.
-Connect backend implementation and hosted storage stay private.
+Publish PANDA’s device events, controls and audio interfaces with the public build.
+Publish the Connect backend and integrations. Keep credentials and user records private.
 
 - [ ] Define the persistent device-to-backend connection and message types.
 - [ ] Define backend commands for sound, LED state, OLED update, confirmation,
@@ -68,8 +68,8 @@ Connect backend implementation and hosted storage stay private.
 
 - [ ] Add run instructions when implementation begins.
 - [ ] Extend the existing `.gitignore` to cover local credential files alongside build outputs and editor files.
-- [ ] When implementation begins, organize public firmware, community app, shared interfaces
-      and tests here. Keep the Connect app and backend in private source control.
+- [ ] When implementation begins, organize public firmware, companion app, shared interfaces
+      and tests here alongside the Connect app and backend.
 - [ ] Add a single, initially blank pin-map file. It becomes the only source of GPIO
       assignments after the breadboard is wired.
 - [ ] Keep hardware access behind a firmware abstraction layer so the non-hardware
@@ -85,16 +85,16 @@ Connect backend implementation and hosted storage stay private.
 - [x] Define when [connected reminders](connect-release.md#reminder-behaviour) nudge, repeat and stop. [#12](https://github.com/Aman-zishan/panda/issues/12)
 - [x] Specify [device feedback and companion-app responsibilities](product-philosophy.md#device-and-app). [#13](https://github.com/Aman-zishan/panda/issues/13)
 - [x] Document [listening, transmission, transcript-only history and physical mute](voice-capture.md#voice-capture-privacy). [#14](https://github.com/Aman-zishan/panda/issues/14)
-- [x] Define the [public and private release boundary](basic-release.md#public-and-private-release-boundary). [#15](https://github.com/Aman-zishan/panda/issues/15)
+- [x] Define the [open-source release scope](basic-release.md#open-source-release-scope). [#15](https://github.com/Aman-zishan/panda/issues/15)
 - [x] Publish the project README and decision log.
 
-## Later hardware stages
+## Breadboard to final build
 
-Measure the actual parts before finalizing shell, collar or head dimensions.
+| Milestone | What to demonstrate |
+| --- | --- |
+| [M3 · Bring-up](https://github.com/Aman-zishan/panda/milestone/4) | Bring up the modules, run local focus, pair Connect, display device status and disconnect the app while the timer runs. |
+| [M4 · Capture and reminders](https://github.com/Aman-zishan/panda/milestone/5) | Speak a request, confirm on the device, edit in Connect and receive the nudge. Exercise snooze, desktop escalation and reconnect. Record reliability over several working days. |
+| [M5 · Integrated bench](https://github.com/Aman-zishan/panda/milestone/6) | Add radar, physical mute, visor feedback and a servo on a temporary fixture. Check presence, movement, quiet mode, calendar and opt-in meeting flows together with Connect. Log voice capture, knob use and the tiny world each workday during the three-week trial. Record results and resolve failures across the feature matrix. |
+| [M6 · Final form factor](https://github.com/Aman-zishan/panda/milestone/7) | Start after the complete device and companion experience passes on the breadboard. Measure and fit the shell, head, collar, speaker, mic and USB port. Recheck power, movement, acoustics and app behaviour in the assembled body. |
 
-- Presence radar and hardware microphone mute switch (Stage 2).
-- Servo, head, collar, visor LED, PETG shell, carrier board and final power design
-  (Stage 3).
-- Once presence sensing and head movement work together, run the [three-week usefulness trial](https://github.com/Aman-zishan/panda/milestone/7). Log voice capture, knob use and the tiny world each workday.
-- A custom PCB. Build one only after the validation tests establish the final pin map,
-  selected modules, power behaviour and enclosure layout.
+Choose a carrier or custom PCB only if the validated wiring, power and fit call for one.

@@ -14,7 +14,7 @@ subscription, cloud API key, internet connection or running desktop app.
 | Local voice | Activate listening by wake word or long press and use a small documented English command set for focus, timer and volume. Exact phrases and recognition quality require validation. |
 | Presence and breaks | Use presence-aware rest, break nudges and display sleep with the supported sensor. |
 | Physical character and privacy | Use the supported head movement, visor and hardware microphone mute. |
-| Community desktop app | Set up the device, change basic settings, assign builder-supplied sounds, use controls and inspect status locally. |
+| Connect companion app | Set up the device, change basic settings, assign builder-supplied sounds, use controls and inspect status locally. |
 | Build materials | Obtain source, parts list, verified wiring, enclosure files and instructions to reproduce the supported build. A custom PCB is not required. |
 | Extension interfaces | Access documented device events, controls and audio interfaces, with a working community integration example. |
 
@@ -30,25 +30,21 @@ communicate listening, confirmation and completion.
 
 Label breadboard previews with tested parts and features. Candidates include the
 timer, knob, display, local voice and saved world state. Presence, hardware mute,
-head movement and the enclosure belong to later Basic hardware stages.
+head movement and the enclosure follow initial bring-up. Validate sensors and movement on the bench before packaging.
 
-## Public and private release boundary
+## Open-source release scope
 
-Publish the Basic firmware, community desktop app, hardware build files, documented
-audio and device interfaces, and a working integration example. Builders can use
-these interfaces to connect their own speech service. Basic must build and run
-independently of Connect.
-
-Keep the paid Connect app source, hosted backend and maintained integration code
-in private repositories. Public docs may describe how Connect behaves. A bundled
-self-hosted Connect service is outside Basic scope. See the [feature matrix](feature-matrix.md)
-for the planned services and the [licences](../LICENSE.md) for reuse terms.
+Publish the firmware, hardware build files, PANDA Connect companion app, backend,
+integrations and documented device and audio interfaces with a working example.
+Builders can connect their own services. Local device features work offline after setup.
+Credentials, user records and third-party assets require separate handling.
+See [licences](../LICENSE.md) for terms applying to released materials.
 
 ## Ready to release when
 
 - A builder can follow the published instructions, build the software and reproduce
   the supported hardware without access to a private repository or service.
-- Setup and basic settings work through the community app; tested desktop platforms
+- Setup and basic settings work through Connect; tested desktop platforms
   and known limitations are listed with the release.
 - With internet and the app disconnected after setup, local controls, focus, world
   persistence and the documented voice commands still work.

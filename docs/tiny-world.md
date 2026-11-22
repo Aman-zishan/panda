@@ -26,7 +26,7 @@ The creature never dies, becomes ill or asks to be rescued.
 
 | Hardware | Break behaviour |
 | --- | --- |
-| Stage 1 | After focus, show a resting scene. Acknowledgement cannot confirm a break. Without a presence sensor, never infer desk time, absence or skipped breaks. The plant never wilts. Head movement comes in Stage 3. |
+| Stage 1 | After focus, show a resting scene. Acknowledgement cannot confirm a break. Without a presence sensor, never infer desk time, absence or skipped breaks. The plant never wilts. Head movement is checked later on the integrated bench. |
 | With presence sensing | Rest while the person is away and welcome them back. Deferring a break nudge may briefly droop the plant. Preserve growth and keep the creature calm. Suppress attention cues in quiet mode. Never infer productivity from presence or wilt on uncertain readings. |
 
 A detected break or the next completed focus session restores a drooping plant.

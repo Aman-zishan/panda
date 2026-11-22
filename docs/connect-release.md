@@ -1,7 +1,6 @@
 # PANDA Connect release scope
 
-Approved 2026-11-17. Connect is the paid, maintained app and hosted service for
-the same hardware as [Basic](basic-release.md). PANDA gives brief physical feedback.
+PANDA Connect is the open-source desktop companion for the [standalone device](basic-release.md). Build and test pairing, capture, reminders and integrations alongside the breadboard. See the [build milestones](pre-hardware-checklist.md#breadboard-to-final-build). PANDA gives brief physical feedback.
 Transcripts, lists, editing and settings live in the app.
 
 ## First release
@@ -35,9 +34,9 @@ while its prompt is visible, then resumes its usual controls.
 Future occurrences of a recurring reminder follow their schedule. For example, ignoring
 the 2 pm water reminder leaves the 3 pm reminder in place.
 
-## Later releases
+## Integrated breadboard stage
 
-Calendar integration and automatic meeting quiet mode come later. An optional
+Test calendar integration and automatic meeting quiet mode on the integrated bench. An optional
 meeting agent may join when invited or enabled, transcribe meetings and send
 proposed reminders to PANDA after approval. Define supported platforms and consent before launch.
 
@@ -50,7 +49,7 @@ proposed reminders to PANDA after approval. Define supported platforms and conse
 - Offline reminder delivery is unresolved. Before release, document in the app which
   saved reminders run locally, how missed reminders work and when the desktop app must run.
 
-## Ready for a paid release when
+## Ready for a hosted release when
 
 - Capture, confirmation, editing, nudging and acknowledgement work together on the
   supported build, with measured response times and clear failures.

@@ -1,7 +1,7 @@
 # PANDA feature comparison
 
-**Basic:** open-source device software and community app.
-**Connect:** private, paid app with maintained integrations and managed services.
+**Basic:** standalone device features and local setup.
+**Connect:** companion app with connected services and integrations. Both columns describe the same open-source project.
 
 ✓ Included in planned scope · — Not bundled. Hardware features require their components.
 Local voice commands await validation. For release timing and readiness, see
@@ -30,16 +30,16 @@ Local voice commands await validation. For release timing and readiness, see
 | One-time reminders | — | ✓ |
 | Recurring and conditional reminders | — | ✓ |
 | Reminder snooze and acknowledgement | — | ✓ |
-| Calendar integration and automatic meeting quiet mode (later) | — | ✓ |
+| Calendar integration and automatic meeting quiet mode (integrated bench) | — | ✓ |
 | **Companion app** | | |
-| Desktop app | Community | Maintained by creator |
+| Desktop app | Connect local setup | Connect with services |
 | Setup, controls and device status | ✓ | ✓ |
 | Full capture transcripts | — | ✓ |
 | Item history and search | — | ✓ |
 | Reminder and schedule management | — | ✓ |
 | Desktop alerts for unacknowledged nudges | — | ✓ |
 | Advanced connected behaviours | — | ✓ |
-| **Meeting assistant (later)** | | |
+| **Meeting assistant (integrated bench)** | | |
 | Join meetings when invited or enabled | — | ✓ |
 | Meeting transcripts | — | ✓ |
 | Suggested reminders from meetings | — | ✓ |
@@ -47,7 +47,7 @@ Local voice commands await validation. For release timing and readiness, see
 | **Services & customization** | | |
 | Hosted speech and AI processing | — | ✓ |
 | Managed storage and updates | — | ✓ |
-| Open-source device firmware | ✓ | ✓ |
+| Public device firmware | ✓ | ✓ |
 | Hardware build files | ✓ | ✓ |
 | Documented audio and device interfaces | ✓ | ✓ |
 | Community integration examples | ✓ | ✓ |

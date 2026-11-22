@@ -16,7 +16,7 @@ the website, requirements and build plans. Build PANDA Connect alongside the dev
 - **PANDA** runs locally and includes device firmware, hardware build files and local controls.
 - **Connect** is the source-available companion app for setup, voice capture and scheduled reminders.
 
-See the [feature comparison](docs/feature-matrix.md) for planned capabilities and the
+See the [local and connected features](docs/feature-matrix.md) for planned capabilities and the
 [pre-hardware checklist](docs/pre-hardware-checklist.md) for current build work.
 
 ## Design files

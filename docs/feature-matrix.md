@@ -1,55 +1,20 @@
-# PANDA feature comparison
+# Local and connected features
 
-PANDA is the device. PANDA Connect is its companion app. The columns show what works locally (including local app setup) and what is available when connected services are enabled.
+PANDA uses the same hardware whether it is online or offline. These are planned
+capabilities. The [device release scope](basic-release.md) lists the components and
+hardware checks for each build.
 
-✓ Included in planned scope · — Requires connected services. Hardware features require their components.
-Local voice commands await validation. For release timing and readiness, see
-[PANDA device](basic-release.md) and [Connect](connect-release.md).
+| What you want to do | What you need |
+| --- | --- |
+| Start or pause focus, adjust volume, or see the tiny world grow | PANDA alone after setup. The knob, display and feedback work offline, and world growth survives restarts. |
+| Start focus or change volume by voice | PANDA listens locally after the wake word or a long press. The exact English commands and recognition accuracy still need bench testing. |
+| Set up PANDA, check its status or assign your own sounds | The Connect desktop app and a local connection to PANDA. Setup and controls work without hosted services. |
+| Speak a note, to-do or reminder in your own words | Connect uses hosted speech and interpretation. Review transcripts, search saved items and edit schedules in the app. |
+| Schedule a one-off, recurring or conditional nudge | Confirm the schedule through Connect. When PANDA nudges, press to acknowledge or turn to snooze. Desktop follow-up is optional. |
 
-| Features | Local use | With connected services |
-| --- | :---: | :---: |
-| **Device & focus** | | |
-| Knob controls | ✓ | ✓ |
-| Focus timer | ✓ | ✓ |
-| Sounds and status light | ✓ | ✓ |
-| Tiny world | ✓ | ✓ |
-| Save world state across restarts | ✓ | ✓ |
-| Brief display feedback | ✓ | ✓ |
-| Presence sensing | ✓ | ✓ |
-| Break nudges | ✓ | ✓ |
-| Display dimming and sleep | ✓ | ✓ |
-| Head movement and visor | ✓ | ✓ |
-| Physical microphone mute | ✓ | ✓ |
-| Local features without internet | ✓ | ✓ |
-| **Voice & reminders** | | |
-| Wake word and long-press activation | ✓ | ✓ |
-| Limited local voice commands | ✓ | ✓ |
-| Flexible natural-language understanding | — | ✓ |
-| Voice notes and to-dos | — | ✓ |
-| One-time reminders | — | ✓ |
-| Recurring and conditional reminders | — | ✓ |
-| Reminder snooze and acknowledgement | — | ✓ |
-| Calendar integration and automatic meeting quiet mode (integrated bench) | — | ✓ |
-| **Companion app** | | |
-| Desktop app | Connect local setup | Connect with services |
-| Setup, controls and device status | ✓ | ✓ |
-| Full capture transcripts | — | ✓ |
-| Item history and search | — | ✓ |
-| Reminder and schedule management | — | ✓ |
-| Desktop alerts for unacknowledged nudges | — | ✓ |
-| Advanced connected behaviours | — | ✓ |
-| **Meeting assistant (integrated bench)** | | |
-| Join meetings when invited or enabled | — | ✓ |
-| Meeting transcripts | — | ✓ |
-| Suggested reminders from meetings | — | ✓ |
-| Send confirmed reminders to PANDA | — | ✓ |
-| **Services & customization** | | |
-| Hosted speech and AI processing | — | ✓ |
-| Managed storage and updates | — | ✓ |
-| Public device firmware | ✓ | ✓ |
-| Hardware build files | ✓ | ✓ |
-| Documented audio and device interfaces | ✓ | ✓ |
-| Community integration examples | ✓ | ✓ |
+**If the internet drops**, local controls and focus keep working. New connected
+captures and sync need the service. Delivery of previously saved reminders during
+an outage is still an open requirement. See [Connect release scope](connect-release.md#connectivity-and-outages).
 
-Builders supply audio files and may add community integrations. Connect pricing and
-supported meeting platforms are open. See [licences](../LICENSE.md) for reuse terms.
+Calendar-based quiet mode and opt-in meeting transcription are planned for the
+[integrated breadboard stage](connect-release.md#integrated-breadboard-stage).

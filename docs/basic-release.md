@@ -38,7 +38,7 @@ Publish the firmware, hardware build files, PANDA Connect companion app, backend
 integrations and documented device and audio interfaces with a working example.
 Builders can connect their own services. Local device features work offline after setup.
 Credentials, user records and third-party assets require separate handling.
-The [PANDA Community Licence](../LICENSE.md) permits personal builds and free sharing. Sales of covered devices, kits or copies require separate written permission. Check individual notices for third-party materials and assets.
+The [PANDA Noncommercial Licence](../LICENSE.md) permits noncommercial builds and sharing. Commercial use requires separate written permission.
 
 ## Ready to release when
 

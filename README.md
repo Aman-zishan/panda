@@ -31,7 +31,5 @@ See [Contributing](CONTRIBUTING.md) to edit and preview the site, or browse the
 
 ## Licence
 
-You can fork PANDA, modify it, build one for yourself and share builds for free.
-Selling devices, kits or copies made using materials under the PANDA Community
-Licence requires separate written permission. See [LICENSE.md](LICENSE.md) for
-the terms, earlier releases and asset exceptions.
+You can fork, modify, build and share PANDA for noncommercial purposes.
+Commercial use requires separate written permission. See the [PANDA Noncommercial Licence](LICENSE.md).

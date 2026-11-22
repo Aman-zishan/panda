@@ -18,7 +18,7 @@ requires permission from the project owner. Request permission through
 
 This policy covers branding. It does not grant a licence to code, hardware designs,
 documentation or other assets. Those materials are governed by their applicable
-licences. Permission to sell a device and permission to use official PANDA branding are separate.
+licences. Commercial use and official PANDA branding each require their own permission.
 
 See [LICENSE.md](LICENSE.md) for the licence scopes and asset exceptions. This
 brand policy does not restrict rights granted under those licences.
